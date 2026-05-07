@@ -1,0 +1,12 @@
+# Translation
+deep-translator
+
+# Alignment & NLP
+simalign
+underthesea
+transformers
+tqdm
+
+# English SRL (Lưu ý: AllenNLP thường yêu cầu môi trường cụ thể: Python 3.8)
+allennlp==2.10.1
+allennlp-models==2.10.0

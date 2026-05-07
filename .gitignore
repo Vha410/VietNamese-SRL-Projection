@@ -1,0 +1,19 @@
+# IDE & Text Editors
+.idea/
+.vscode/
+*.swp
+*.suo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.env
