@@ -1,27 +1,27 @@
 {
   "summary": {
     "n_gold": 922,
-    "n_silver": 835,
-    "n_matched": 820,
-    "n_evaluated": 820
+    "n_silver": 864,
+    "n_matched": 848,
+    "n_evaluated": 848
   },
   "predicate_detection": {
-    "precision": 0.5669,
-    "recall": 0.5886,
-    "f1": 0.5776,
-    "tp": 1076,
-    "fp": 822,
-    "fn": 752
+    "precision": 0.5554,
+    "recall": 0.6332,
+    "f1": 0.5918,
+    "tp": 1193,
+    "fp": 955,
+    "fn": 691
   },
   "argument_labeling": {
-    "precision": 0.544,
-    "recall": 0.3821,
-    "f1": 0.4489,
-    "tp": 4577,
-    "fp": 3837,
-    "fn": 7400
+    "precision": 0.541,
+    "recall": 0.4072,
+    "f1": 0.4646,
+    "tp": 5032,
+    "fp": 4270,
+    "fn": 7327
   },
-  "overall_f1": 0.51325,
+  "overall_f1": 0.5282,
   "per_label": {
     "am-adj": {
       "precision": 0.0,
@@ -32,20 +32,20 @@
       "fn": 1
     },
     "am-adv": {
-      "precision": 0.4751,
-      "recall": 0.1896,
-      "f1": 0.271,
-      "tp": 219,
-      "fp": 242,
-      "fn": 936
+      "precision": 0.4745,
+      "recall": 0.207,
+      "f1": 0.2883,
+      "tp": 242,
+      "fp": 268,
+      "fn": 927
     },
     "am-cau": {
-      "precision": 0.75,
-      "recall": 0.3659,
-      "f1": 0.4918,
+      "precision": 0.7229,
+      "recall": 0.355,
+      "f1": 0.4762,
       "tp": 60,
-      "fp": 20,
-      "fn": 104
+      "fp": 23,
+      "fn": 109
     },
     "am-cause": {
       "precision": 0.0,
@@ -64,20 +64,20 @@
       "fn": 18
     },
     "am-dir": {
-      "precision": 0.129,
+      "precision": 0.1231,
       "recall": 0.3333,
-      "f1": 0.186,
+      "f1": 0.1798,
       "tp": 8,
-      "fp": 54,
+      "fp": 57,
       "fn": 16
     },
     "am-dis": {
-      "precision": 0.5422,
-      "recall": 0.2045,
-      "f1": 0.297,
-      "tp": 45,
+      "precision": 0.5581,
+      "recall": 0.2133,
+      "f1": 0.3087,
+      "tp": 48,
       "fp": 38,
-      "fn": 175
+      "fn": 177
     },
     "am-dsp": {
       "precision": 0.0,
@@ -85,22 +85,22 @@
       "f1": 0.0,
       "tp": 0,
       "fp": 0,
-      "fn": 622
+      "fn": 657
     },
     "am-ext": {
       "precision": 0.0,
       "recall": 0.0,
       "f1": 0.0,
       "tp": 0,
-      "fp": 3,
-      "fn": 94
+      "fp": 4,
+      "fn": 95
     },
     "am-gol": {
-      "precision": 0.0645,
+      "precision": 0.0588,
       "recall": 0.0769,
-      "f1": 0.0702,
+      "f1": 0.0667,
       "tp": 2,
-      "fp": 29,
+      "fp": 32,
       "fn": 24
     },
     "am-i": {
@@ -112,36 +112,36 @@
       "fn": 2
     },
     "am-loc": {
-      "precision": 0.4133,
-      "recall": 0.3616,
-      "f1": 0.3857,
-      "tp": 81,
-      "fp": 115,
-      "fn": 143
+      "precision": 0.4242,
+      "recall": 0.3968,
+      "f1": 0.41,
+      "tp": 98,
+      "fp": 133,
+      "fn": 149
     },
     "am-mnr": {
-      "precision": 0.148,
-      "recall": 0.245,
-      "f1": 0.1845,
-      "tp": 37,
-      "fp": 213,
-      "fn": 114
+      "precision": 0.1471,
+      "recall": 0.2614,
+      "f1": 0.1882,
+      "tp": 40,
+      "fp": 232,
+      "fn": 113
     },
     "am-mod": {
-      "precision": 0.3625,
-      "recall": 0.2417,
-      "f1": 0.29,
-      "tp": 29,
-      "fp": 51,
-      "fn": 91
+      "precision": 0.3636,
+      "recall": 0.2623,
+      "f1": 0.3048,
+      "tp": 32,
+      "fp": 56,
+      "fn": 90
     },
     "am-neg": {
-      "precision": 0.759,
-      "recall": 0.5164,
-      "f1": 0.6146,
-      "tp": 63,
-      "fp": 20,
-      "fn": 59
+      "precision": 0.7158,
+      "recall": 0.544,
+      "f1": 0.6182,
+      "tp": 68,
+      "fp": 27,
+      "fn": 57
     },
     "am-par": {
       "precision": 0.0,
@@ -160,20 +160,20 @@
       "fn": 17
     },
     "am-prd": {
-      "precision": 0.1226,
-      "recall": 0.045,
-      "f1": 0.0658,
+      "precision": 0.1215,
+      "recall": 0.0447,
+      "f1": 0.0653,
       "tp": 13,
-      "fp": 93,
-      "fn": 276
+      "fp": 94,
+      "fn": 278
     },
     "am-prp": {
-      "precision": 0.65,
-      "recall": 0.3779,
-      "f1": 0.4779,
-      "tp": 195,
-      "fp": 105,
-      "fn": 321
+      "precision": 0.6073,
+      "recall": 0.3858,
+      "f1": 0.4718,
+      "tp": 201,
+      "fp": 130,
+      "fn": 320
     },
     "am-rec": {
       "precision": 0.0,
@@ -184,52 +184,60 @@
       "fn": 0
     },
     "am-tmp": {
-      "precision": 0.6498,
-      "recall": 0.4431,
-      "f1": 0.5269,
-      "tp": 397,
-      "fp": 214,
-      "fn": 499
+      "precision": 0.6372,
+      "recall": 0.4545,
+      "f1": 0.5306,
+      "tp": 425,
+      "fp": 242,
+      "fn": 510
+    },
+    "arg-location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
     },
     "arg0": {
-      "precision": 0.768,
-      "recall": 0.3996,
-      "f1": 0.5257,
-      "tp": 917,
-      "fp": 277,
-      "fn": 1378
+      "precision": 0.7481,
+      "recall": 0.4249,
+      "f1": 0.542,
+      "tp": 1004,
+      "fp": 338,
+      "fn": 1359
     },
     "arg1": {
-      "precision": 0.6437,
-      "recall": 0.5334,
-      "f1": 0.5834,
-      "tp": 2293,
-      "fp": 1269,
-      "fn": 2006
+      "precision": 0.6481,
+      "recall": 0.5715,
+      "f1": 0.6074,
+      "tp": 2542,
+      "fp": 1380,
+      "fn": 1906
     },
     "arg2": {
-      "precision": 0.1582,
-      "recall": 0.3105,
-      "f1": 0.2096,
-      "tp": 181,
-      "fp": 963,
-      "fn": 402
+      "precision": 0.1639,
+      "recall": 0.3443,
+      "f1": 0.2221,
+      "tp": 210,
+      "fp": 1071,
+      "fn": 400
     },
     "arg3": {
-      "precision": 0.1064,
+      "precision": 0.0833,
       "recall": 0.1136,
-      "f1": 0.1099,
+      "f1": 0.0962,
       "tp": 5,
-      "fp": 42,
+      "fp": 55,
       "fn": 39
     },
     "arg4": {
-      "precision": 0.2222,
-      "recall": 0.4138,
-      "f1": 0.2892,
-      "tp": 24,
-      "fp": 84,
-      "fn": 34
+      "precision": 0.2342,
+      "recall": 0.4483,
+      "f1": 0.3077,
+      "tp": 26,
+      "fp": 85,
+      "fn": 32
     },
     "argue.02": {
       "precision": 0.0,
@@ -306,13 +314,13 @@
       "sentence": "\" công_trình trung_tâm tiếp_thị 79 hàng_bồ có gì đâu mà phải mời tất_c",
       "gold_tokens": 22,
       "silver_tokens": 23,
-      "pred_tp": 0,
-      "pred_fp": 1,
-      "pred_fn": 4,
-      "arg_tp": 7,
-      "arg_fp": 23,
-      "arg_fn": 28,
-      "arg_f1": 0.2154
+      "pred_tp": 1,
+      "pred_fp": 2,
+      "pred_fn": 3,
+      "arg_tp": 8,
+      "arg_fp": 16,
+      "arg_fn": 27,
+      "arg_f1": 0.2712
     },
     {
       "id": 165,
@@ -346,12 +354,12 @@
       "gold_tokens": 21,
       "silver_tokens": 21,
       "pred_tp": 3,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 1,
       "arg_tp": 7,
-      "arg_fp": 4,
+      "arg_fp": 5,
       "arg_fn": 25,
-      "arg_f1": 0.3256
+      "arg_f1": 0.3182
     },
     {
       "id": 861,
@@ -384,13 +392,13 @@
       "sentence": "\" là tín_dụng ưu_đãi theo kế_hoạch của Chính_phủ ... \" , ông bộ_trưởng",
       "gold_tokens": 15,
       "silver_tokens": 15,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 6,
-      "arg_fn": 18,
-      "arg_f1": 0.0
+      "pred_fn": 0,
+      "arg_tp": 2,
+      "arg_fp": 12,
+      "arg_fn": 16,
+      "arg_f1": 0.125
     },
     {
       "id": 392,
@@ -436,13 +444,13 @@
       "sentence": "\" phòng_mạch \" chữa bệnh cho cây ra_đời từ đấy .",
       "gold_tokens": 11,
       "silver_tokens": 11,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 1,
-      "arg_fp": 1,
-      "arg_fn": 10,
-      "arg_f1": 0.1538
+      "pred_fn": 0,
+      "arg_tp": 8,
+      "arg_fp": 3,
+      "arg_fn": 3,
+      "arg_f1": 0.7273
     },
     {
       "id": 461,
@@ -569,10 +577,10 @@
       "pred_tp": 2,
       "pred_fp": 2,
       "pred_fn": 0,
-      "arg_tp": 3,
-      "arg_fp": 7,
-      "arg_fn": 10,
-      "arg_f1": 0.2609
+      "arg_tp": 4,
+      "arg_fp": 8,
+      "arg_fn": 9,
+      "arg_f1": 0.32
     },
     {
       "id": 179,
@@ -770,6 +778,19 @@
       "arg_f1": 0.0645
     },
     {
+      "id": 520,
+      "sentence": "Anh_em Tuấn đều là phần_tử bất_hảo .",
+      "gold_tokens": 7,
+      "silver_tokens": 7,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 0,
+      "arg_fp": 3,
+      "arg_fn": 5,
+      "arg_f1": 0.0
+    },
+    {
       "id": 107,
       "sentence": "Anh_em tôi chỉ còn biết nhìn nhau .",
       "gold_tokens": 8,
@@ -852,13 +873,13 @@
       "sentence": "Anh Trần_Nhất_Thiện ( giám_đốc công_ty TNHH Triều_Phú ) : công_ty chún",
       "gold_tokens": 20,
       "silver_tokens": 20,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 9,
+      "pred_fn": 1,
+      "arg_tp": 13,
       "arg_fp": 8,
-      "arg_fn": 4,
-      "arg_f1": 0.6
+      "arg_fn": 0,
+      "arg_f1": 0.7647
     },
     {
       "id": 48,
@@ -879,7 +900,7 @@
       "gold_tokens": 20,
       "silver_tokens": 20,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 1,
       "arg_tp": 14,
       "arg_fp": 6,
@@ -935,8 +956,8 @@
       "pred_fn": 1,
       "arg_tp": 8,
       "arg_fp": 2,
-      "arg_fn": 10,
-      "arg_f1": 0.5714
+      "arg_fn": 11,
+      "arg_f1": 0.5517
     },
     {
       "id": 586,
@@ -957,12 +978,12 @@
       "gold_tokens": 15,
       "silver_tokens": 16,
       "pred_tp": 3,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 0,
-      "arg_tp": 9,
-      "arg_fp": 5,
-      "arg_fn": 8,
-      "arg_f1": 0.5806
+      "arg_tp": 8,
+      "arg_fp": 6,
+      "arg_fn": 9,
+      "arg_f1": 0.5161
     },
     {
       "id": 408,
@@ -970,12 +991,12 @@
       "gold_tokens": 13,
       "silver_tokens": 13,
       "pred_tp": 2,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 1,
       "arg_tp": 4,
-      "arg_fp": 5,
+      "arg_fp": 6,
       "arg_fn": 7,
-      "arg_f1": 0.4
+      "arg_f1": 0.381
     },
     {
       "id": 418,
@@ -1034,13 +1055,13 @@
       "sentence": "Bà_con sẽ được tạo điều_kiện tối_đa để về thăm quê , thờ_cúng tổ_tiên ",
       "gold_tokens": 14,
       "silver_tokens": 14,
-      "pred_tp": 1,
+      "pred_tp": 3,
       "pred_fp": 2,
-      "pred_fn": 3,
+      "pred_fn": 1,
       "arg_tp": 4,
-      "arg_fp": 7,
+      "arg_fp": 8,
       "arg_fn": 10,
-      "arg_f1": 0.32
+      "arg_f1": 0.3077
     },
     {
       "id": 449,
@@ -1073,13 +1094,13 @@
       "sentence": "Bà Hồng cần kiểm_tra lại các điểm họ_hàng quê_quán Đào có_thể đến và t",
       "gold_tokens": 20,
       "silver_tokens": 20,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 2,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 12,
-      "arg_fp": 5,
+      "arg_fp": 6,
       "arg_fn": 6,
-      "arg_f1": 0.6857
+      "arg_f1": 0.6667
     },
     {
       "id": 718,
@@ -1129,9 +1150,9 @@
       "pred_fp": 0,
       "pred_fn": 0,
       "arg_tp": 5,
-      "arg_fp": 2,
+      "arg_fp": 6,
       "arg_fn": 12,
-      "arg_f1": 0.4167
+      "arg_f1": 0.3571
     },
     {
       "id": 731,
@@ -1165,12 +1186,25 @@
       "gold_tokens": 9,
       "silver_tokens": 9,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 0,
-      "arg_fp": 6,
-      "arg_fn": 7,
-      "arg_f1": 0.0
+      "arg_tp": 1,
+      "arg_fp": 5,
+      "arg_fn": 6,
+      "arg_f1": 0.1538
+    },
+    {
+      "id": 532,
+      "sentence": "Bác_hồ ủng_hộ quyết_định của tôi ... \" .",
+      "gold_tokens": 8,
+      "silver_tokens": 8,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 3,
+      "arg_fp": 0,
+      "arg_fn": 1,
+      "arg_f1": 0.8571
     },
     {
       "id": 38,
@@ -1216,13 +1250,13 @@
       "sentence": "Báo TT có_thể là đầu_tàu , qua đó rộng_rãi độc_giả , nhất_là các doanh",
       "gold_tokens": 23,
       "silver_tokens": 24,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 3,
-      "arg_fn": 16,
-      "arg_f1": 0.0
+      "pred_fn": 2,
+      "arg_tp": 3,
+      "arg_fp": 24,
+      "arg_fn": 13,
+      "arg_f1": 0.1395
     },
     {
       "id": 846,
@@ -1255,13 +1289,13 @@
       "sentence": "Bình cắt thêm người theo sát hai anh của Tuấn , đồng_thời nhắn_tin hẹn",
       "gold_tokens": 20,
       "silver_tokens": 19,
-      "pred_tp": 0,
-      "pred_fp": 3,
-      "pred_fn": 2,
+      "pred_tp": 1,
+      "pred_fp": 4,
+      "pred_fn": 1,
       "arg_tp": 9,
-      "arg_fp": 5,
+      "arg_fp": 8,
       "arg_fn": 7,
-      "arg_f1": 0.6
+      "arg_f1": 0.5455
     },
     {
       "id": 517,
@@ -1282,7 +1316,7 @@
       "gold_tokens": 10,
       "silver_tokens": 10,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 4,
       "arg_fp": 1,
@@ -1347,12 +1381,12 @@
       "gold_tokens": 16,
       "silver_tokens": 15,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 2,
-      "arg_tp": 5,
-      "arg_fp": 3,
-      "arg_fn": 7,
-      "arg_f1": 0.5
+      "arg_tp": 6,
+      "arg_fp": 4,
+      "arg_fn": 6,
+      "arg_f1": 0.5455
     },
     {
       "id": 919,
@@ -1438,12 +1472,12 @@
       "gold_tokens": 14,
       "silver_tokens": 14,
       "pred_tp": 2,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 6,
-      "arg_fp": 2,
+      "arg_fp": 7,
       "arg_fn": 7,
-      "arg_f1": 0.5714
+      "arg_f1": 0.4615
     },
     {
       "id": 620,
@@ -1479,36 +1513,36 @@
       "pred_tp": 1,
       "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 6,
-      "arg_fp": 10,
-      "arg_fn": 9,
-      "arg_f1": 0.3871
+      "arg_tp": 7,
+      "arg_fp": 9,
+      "arg_fn": 8,
+      "arg_f1": 0.4516
     },
     {
       "id": 516,
       "sentence": "Bốn ngày_đêm làm xe_ôm trực trước cửa_hàng của Tuấn , thám_tử Bình khô",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 1,
-      "arg_tp": 2,
-      "arg_fp": 7,
-      "arg_fn": 16,
-      "arg_f1": 0.1481
+      "pred_fn": 0,
+      "arg_tp": 5,
+      "arg_fp": 17,
+      "arg_fn": 13,
+      "arg_f1": 0.25
     },
     {
       "id": 881,
       "sentence": "Bồi_thường không phải là điều mà chúng_tôi tìm_kiếm .",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 2,
+      "pred_fn": 0,
+      "arg_tp": 5,
       "arg_fp": 4,
-      "arg_fn": 6,
-      "arg_f1": 0.2857
+      "arg_fn": 3,
+      "arg_f1": 0.5882
     },
     {
       "id": 360,
@@ -1646,7 +1680,7 @@
       "gold_tokens": 9,
       "silver_tokens": 10,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 1,
       "arg_fp": 7,
@@ -1659,12 +1693,12 @@
       "gold_tokens": 18,
       "silver_tokens": 19,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 2,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 22,
-      "arg_f1": 0.0
+      "arg_tp": 9,
+      "arg_fp": 6,
+      "arg_fn": 13,
+      "arg_f1": 0.4865
     },
     {
       "id": 837,
@@ -1697,13 +1731,13 @@
       "sentence": "Cho đến giờ có nhiều cá_nhân và tổ_chức đăng_ký tham_gia với chúng_tôi",
       "gold_tokens": 13,
       "silver_tokens": 13,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 5,
-      "arg_fp": 0,
+      "arg_fp": 6,
       "arg_fn": 10,
-      "arg_f1": 0.5
+      "arg_f1": 0.3846
     },
     {
       "id": 756,
@@ -1740,9 +1774,9 @@
       "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 9,
-      "arg_fp": 30,
+      "arg_fp": 29,
       "arg_fn": 21,
-      "arg_f1": 0.2609
+      "arg_f1": 0.2647
     },
     {
       "id": 843,
@@ -1776,12 +1810,12 @@
       "gold_tokens": 18,
       "silver_tokens": 21,
       "pred_tp": 2,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 1,
-      "arg_tp": 4,
-      "arg_fp": 9,
-      "arg_fn": 21,
-      "arg_f1": 0.2105
+      "arg_tp": 3,
+      "arg_fp": 10,
+      "arg_fn": 22,
+      "arg_f1": 0.1579
     },
     {
       "id": 512,
@@ -1823,6 +1857,19 @@
       "arg_f1": 0.1333
     },
     {
+      "id": 359,
+      "sentence": "Chính thực_tế này đòi_hỏi những chủ_trương mạnh_dạn hơn , thông_thoáng",
+      "gold_tokens": 18,
+      "silver_tokens": 18,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 3,
+      "arg_tp": 14,
+      "arg_fp": 0,
+      "arg_fn": 8,
+      "arg_f1": 0.7778
+    },
+    {
       "id": 560,
       "sentence": "Chúng sẽ dẫn khách xuống phố Quang_Trung , vào trung_tâm ngoại_ngữ để ",
       "gold_tokens": 15,
@@ -1853,13 +1900,13 @@
       "sentence": "Chúng_tôi giải_thích đó là tên mới của lãnh_tụ Nguyễn_Ái_Quốc , rồi ph",
       "gold_tokens": 23,
       "silver_tokens": 23,
-      "pred_tp": 1,
+      "pred_tp": 3,
       "pred_fp": 2,
-      "pred_fn": 3,
-      "arg_tp": 1,
-      "arg_fp": 11,
-      "arg_fn": 18,
-      "arg_f1": 0.0645
+      "pred_fn": 1,
+      "arg_tp": 9,
+      "arg_fp": 31,
+      "arg_fn": 10,
+      "arg_f1": 0.3051
     },
     {
       "id": 169,
@@ -1869,10 +1916,10 @@
       "pred_tp": 1,
       "pred_fp": 4,
       "pred_fn": 0,
-      "arg_tp": 10,
+      "arg_tp": 15,
       "arg_fp": 15,
-      "arg_fn": 7,
-      "arg_f1": 0.4762
+      "arg_fn": 2,
+      "arg_f1": 0.6383
     },
     {
       "id": 324,
@@ -2077,10 +2124,10 @@
       "pred_tp": 2,
       "pred_fp": 0,
       "pred_fn": 0,
-      "arg_tp": 7,
-      "arg_fp": 1,
-      "arg_fn": 2,
-      "arg_f1": 0.8235
+      "arg_tp": 6,
+      "arg_fp": 2,
+      "arg_fn": 3,
+      "arg_f1": 0.7059
     },
     {
       "id": 642,
@@ -2122,6 +2169,19 @@
       "arg_f1": 0.2759
     },
     {
+      "id": 659,
+      "sentence": "Con_gái duy_nhất tên Đào học lớp 11 tại một trường trung_học trên đườn",
+      "gold_tokens": 15,
+      "silver_tokens": 15,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 1,
+      "arg_tp": 0,
+      "arg_fp": 8,
+      "arg_fn": 13,
+      "arg_f1": 0.0
+    },
+    {
       "id": 905,
       "sentence": "Con_người này là ai ?",
       "gold_tokens": 5,
@@ -2139,13 +2199,13 @@
       "sentence": "Cuối_cùng Thắng bày_tỏ tình_yêu với Lan , anh nói có_thể chấp_nhận hết",
       "gold_tokens": 22,
       "silver_tokens": 22,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 12,
-      "arg_fp": 13,
-      "arg_fn": 7,
-      "arg_f1": 0.5455
+      "pred_fn": 0,
+      "arg_tp": 14,
+      "arg_fp": 14,
+      "arg_fn": 5,
+      "arg_f1": 0.5957
     },
     {
       "id": 250,
@@ -2226,12 +2286,38 @@
       "arg_f1": 0.5405
     },
     {
+      "id": 618,
+      "sentence": "Các nạn_nhân không đơn_độc .",
+      "gold_tokens": 5,
+      "silver_tokens": 5,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 1,
+      "arg_tp": 2,
+      "arg_fp": 1,
+      "arg_fn": 1,
+      "arg_f1": 0.6667
+    },
+    {
+      "id": 696,
+      "sentence": "Các phương_án cụ_thể : theo_dõi cửa_hàng điện_thoại và nhà Tuấn .",
+      "gold_tokens": 11,
+      "silver_tokens": 10,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 0,
+      "arg_fp": 5,
+      "arg_fn": 4,
+      "arg_f1": 0.0
+    },
+    {
       "id": 712,
       "sentence": "Các thám_tử khác tiếp_tục quay_phim , chụp ảnh và theo sát họ từng bướ",
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
       "arg_tp": 10,
       "arg_fp": 4,
@@ -2243,13 +2329,13 @@
       "sentence": "Các thám_tử khẳng_định 90 % là đúng đối_tượng .",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 0,
+      "pred_fn": 0,
+      "arg_tp": 6,
       "arg_fp": 3,
-      "arg_fn": 9,
-      "arg_f1": 0.0
+      "arg_fn": 3,
+      "arg_f1": 0.6667
     },
     {
       "id": 385,
@@ -2283,12 +2369,12 @@
       "gold_tokens": 24,
       "silver_tokens": 22,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 4,
-      "arg_fp": 22,
+      "arg_fp": 24,
       "arg_fn": 18,
-      "arg_f1": 0.1667
+      "arg_f1": 0.16
     },
     {
       "id": 193,
@@ -2308,13 +2394,13 @@
       "sentence": "Câu_chuyện Lan đã có con cũng không_thể giấu được nữa ...",
       "gold_tokens": 11,
       "silver_tokens": 11,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 2,
-      "pred_fn": 1,
-      "arg_tp": 2,
+      "pred_fn": 0,
+      "arg_tp": 3,
       "arg_fp": 7,
-      "arg_fn": 9,
-      "arg_f1": 0.2
+      "arg_fn": 8,
+      "arg_f1": 0.2857
     },
     {
       "id": 542,
@@ -2425,13 +2511,13 @@
       "sentence": "Có hôm Hải rủ Tùng đi câu , dã_ngoại , chơi thể_thao ...",
       "gold_tokens": 13,
       "silver_tokens": 12,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 3,
+      "pred_fn": 0,
+      "arg_tp": 4,
       "arg_fp": 9,
-      "arg_fn": 7,
-      "arg_f1": 0.2727
+      "arg_fn": 6,
+      "arg_f1": 0.3478
     },
     {
       "id": 716,
@@ -2467,10 +2553,10 @@
       "pred_tp": 1,
       "pred_fp": 1,
       "pred_fn": 2,
-      "arg_tp": 8,
-      "arg_fp": 0,
-      "arg_fn": 4,
-      "arg_f1": 0.8
+      "arg_tp": 7,
+      "arg_fp": 1,
+      "arg_fn": 5,
+      "arg_f1": 0.7
     },
     {
       "id": 239,
@@ -2478,7 +2564,7 @@
       "gold_tokens": 19,
       "silver_tokens": 19,
       "pred_tp": 5,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 2,
       "arg_tp": 27,
       "arg_fp": 5,
@@ -2555,13 +2641,13 @@
       "sentence": "Cô chỉ là một nữ_sinh trung_học và mất_tích đã 10 ngày nay .",
       "gold_tokens": 13,
       "silver_tokens": 12,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 1,
-      "arg_fp": 4,
+      "arg_fp": 8,
       "arg_fn": 9,
-      "arg_f1": 0.1333
+      "arg_f1": 0.1053
     },
     {
       "id": 720,
@@ -2569,12 +2655,12 @@
       "gold_tokens": 13,
       "silver_tokens": 14,
       "pred_tp": 3,
-      "pred_fp": 2,
+      "pred_fp": 1,
       "pred_fn": 1,
-      "arg_tp": 3,
-      "arg_fp": 6,
-      "arg_fn": 9,
-      "arg_f1": 0.2857
+      "arg_tp": 0,
+      "arg_fp": 4,
+      "arg_fn": 12,
+      "arg_f1": 0.0
     },
     {
       "id": 463,
@@ -2582,12 +2668,12 @@
       "gold_tokens": 14,
       "silver_tokens": 14,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 5,
       "pred_fn": 3,
       "arg_tp": 9,
-      "arg_fp": 5,
+      "arg_fp": 7,
       "arg_fn": 6,
-      "arg_f1": 0.6207
+      "arg_f1": 0.5806
     },
     {
       "id": 85,
@@ -2659,9 +2745,9 @@
       "sentence": "Công_văn 327 có ghi đồng_ý như đề_nghị của bộ KHĐT cho_phép công_ty Ti",
       "gold_tokens": 22,
       "silver_tokens": 21,
-      "pred_tp": 1,
+      "pred_tp": 3,
       "pred_fp": 2,
-      "pred_fn": 3,
+      "pred_fn": 1,
       "arg_tp": 16,
       "arg_fp": 9,
       "arg_fn": 26,
@@ -2712,12 +2798,12 @@
       "gold_tokens": 24,
       "silver_tokens": 24,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
       "arg_tp": 14,
-      "arg_fp": 16,
+      "arg_fp": 15,
       "arg_fn": 9,
-      "arg_f1": 0.5283
+      "arg_f1": 0.5385
     },
     {
       "id": 52,
@@ -2725,7 +2811,7 @@
       "gold_tokens": 19,
       "silver_tokens": 19,
       "pred_tp": 1,
-      "pred_fp": 3,
+      "pred_fp": 6,
       "pred_fn": 0,
       "arg_tp": 13,
       "arg_fp": 13,
@@ -2737,13 +2823,13 @@
       "sentence": "Cả hai cam_kết chấm_dứt quan_hệ vĩnh_viễn .",
       "gold_tokens": 7,
       "silver_tokens": 7,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 2,
-      "arg_fp": 0,
+      "arg_fp": 2,
       "arg_fn": 4,
-      "arg_f1": 0.5
+      "arg_f1": 0.4
     },
     {
       "id": 865,
@@ -2803,12 +2889,12 @@
       "gold_tokens": 11,
       "silver_tokens": 11,
       "pred_tp": 2,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 1,
       "arg_tp": 6,
-      "arg_fp": 0,
+      "arg_fp": 2,
       "arg_fn": 7,
-      "arg_f1": 0.6316
+      "arg_f1": 0.5714
     },
     {
       "id": 147,
@@ -2828,13 +2914,26 @@
       "sentence": "Cầu Bình_Triệu 2 chưa xây xong , làm đường tạm cho các phương_tiện gia",
       "gold_tokens": 16,
       "silver_tokens": 16,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 4,
+      "pred_fn": 1,
+      "arg_tp": 5,
+      "arg_fp": 3,
+      "arg_fn": 10,
+      "arg_f1": 0.4348
+    },
+    {
+      "id": 344,
+      "sentence": "Cầu Sài_Gòn - cầu Bình_Triệu về phía bắc TP khi TP có chủ_trương cấm x",
+      "gold_tokens": 24,
+      "silver_tokens": 24,
+      "pred_tp": 3,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 15,
       "arg_fp": 1,
-      "arg_fn": 11,
-      "arg_f1": 0.4
+      "arg_fn": 5,
+      "arg_f1": 0.8333
     },
     {
       "id": 468,
@@ -2842,12 +2941,12 @@
       "gold_tokens": 21,
       "silver_tokens": 21,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
       "arg_tp": 7,
-      "arg_fp": 5,
+      "arg_fp": 6,
       "arg_fn": 11,
-      "arg_f1": 0.4667
+      "arg_f1": 0.4516
     },
     {
       "id": 214,
@@ -2855,7 +2954,7 @@
       "gold_tokens": 17,
       "silver_tokens": 17,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
       "arg_tp": 8,
       "arg_fp": 3,
@@ -2867,9 +2966,9 @@
       "sentence": "Cụ_thể : Nhi sẽ không trả_thù , bêu_xấu và không đòi lại những tài_sản",
       "gold_tokens": 19,
       "silver_tokens": 20,
-      "pred_tp": 1,
-      "pred_fp": 4,
-      "pred_fn": 3,
+      "pred_tp": 2,
+      "pred_fp": 6,
+      "pred_fn": 2,
       "arg_tp": 4,
       "arg_fp": 5,
       "arg_fn": 8,
@@ -2920,7 +3019,7 @@
       "gold_tokens": 14,
       "silver_tokens": 12,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
       "arg_tp": 0,
       "arg_fp": 11,
@@ -2945,13 +3044,13 @@
       "sentence": "Do_vậy cơ_quan điều_tra đã phải yêu_cầu tái giám_định , nhưng chưa có ",
       "gold_tokens": 14,
       "silver_tokens": 14,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 4,
-      "arg_fp": 1,
-      "arg_fn": 14,
-      "arg_f1": 0.3478
+      "pred_fn": 0,
+      "arg_tp": 5,
+      "arg_fp": 2,
+      "arg_fn": 13,
+      "arg_f1": 0.4
     },
     {
       "id": 494,
@@ -3058,6 +3157,19 @@
       "arg_f1": 0.1212
     },
     {
+      "id": 230,
+      "sentence": "Giải_quyết cái gốc này như_thế_nào ?",
+      "gold_tokens": 6,
+      "silver_tokens": 6,
+      "pred_tp": 1,
+      "pred_fp": 1,
+      "pred_fn": 0,
+      "arg_tp": 3,
+      "arg_fp": 0,
+      "arg_fn": 0,
+      "arg_f1": 1.0
+    },
+    {
       "id": 35,
       "sentence": "Giờ nó đi làm có chút vốn , lấy đó mà học tiếp \" .",
       "gold_tokens": 15,
@@ -3084,6 +3196,19 @@
       "arg_f1": 0.4375
     },
     {
+      "id": 208,
+      "sentence": "Góp_ý dự_thảo nghị_định hướng_dẫn thi_hành luật đất_đai : hạn_chế thái",
+      "gold_tokens": 16,
+      "silver_tokens": 16,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 3,
+      "arg_tp": 6,
+      "arg_fp": 0,
+      "arg_fn": 13,
+      "arg_f1": 0.48
+    },
+    {
       "id": 868,
       "sentence": "Gần 3 tỉ đồng đã được đổ vào để cho ra một dịch_vụ khá hoàn_thiện .",
       "gold_tokens": 16,
@@ -3101,13 +3226,13 @@
       "sentence": "Gần đây bà Hồng có nghe Đào kể Tuấn nợ tiền và đang bị truy_lùng .",
       "gold_tokens": 16,
       "silver_tokens": 15,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 2,
-      "pred_fn": 3,
-      "arg_tp": 11,
-      "arg_fp": 1,
-      "arg_fn": 5,
-      "arg_f1": 0.7857
+      "pred_fn": 2,
+      "arg_tp": 12,
+      "arg_fp": 2,
+      "arg_fn": 4,
+      "arg_f1": 0.8
     },
     {
       "id": 27,
@@ -3205,13 +3330,13 @@
       "sentence": "Hai chị_em hiện sống với người mẹ già trong căn nhà như Viện mô_tả là ",
       "gold_tokens": 25,
       "silver_tokens": 25,
-      "pred_tp": 1,
-      "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 21,
-      "arg_fp": 6,
-      "arg_fn": 12,
-      "arg_f1": 0.7
+      "pred_tp": 2,
+      "pred_fp": 2,
+      "pred_fn": 0,
+      "arg_tp": 22,
+      "arg_fp": 11,
+      "arg_fn": 11,
+      "arg_f1": 0.6667
     },
     {
       "id": 870,
@@ -3231,13 +3356,13 @@
       "sentence": "Hai kịch_bản mới phải thực_hiện .",
       "gold_tokens": 6,
       "silver_tokens": 5,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 4,
-      "arg_f1": 0.0
+      "pred_fn": 0,
+      "arg_tp": 3,
+      "arg_fp": 1,
+      "arg_fn": 1,
+      "arg_f1": 0.75
     },
     {
       "id": 13,
@@ -3357,6 +3482,19 @@
       "arg_f1": 0.7
     },
     {
+      "id": 842,
+      "sentence": "Hoàn_cảnh Hải tuy vất_vả nhưng là người tốt và bản_lĩnh \" .",
+      "gold_tokens": 12,
+      "silver_tokens": 12,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 1,
+      "arg_fp": 6,
+      "arg_fn": 7,
+      "arg_f1": 0.1333
+    },
+    {
       "id": 378,
       "sentence": "Hoảng như cháy nhà , Nam cuốn khăn lao ra đón điện_thoại và chui tọt v",
       "gold_tokens": 19,
@@ -3413,9 +3551,9 @@
       "sentence": "Hôm_nay , hội_nghị tiếp_tục làm_việc .",
       "gold_tokens": 6,
       "silver_tokens": 6,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 2,
       "arg_fp": 0,
       "arg_fn": 1,
@@ -3505,12 +3643,12 @@
       "gold_tokens": 16,
       "silver_tokens": 16,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 4,
       "pred_fn": 1,
-      "arg_tp": 3,
-      "arg_fp": 7,
-      "arg_fn": 15,
-      "arg_f1": 0.2143
+      "arg_tp": 5,
+      "arg_fp": 8,
+      "arg_fn": 13,
+      "arg_f1": 0.3226
     },
     {
       "id": 845,
@@ -3518,12 +3656,12 @@
       "gold_tokens": 16,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 4,
       "pred_fn": 2,
-      "arg_tp": 3,
-      "arg_fp": 5,
-      "arg_fn": 8,
-      "arg_f1": 0.3158
+      "arg_tp": 6,
+      "arg_fp": 6,
+      "arg_fn": 5,
+      "arg_f1": 0.5217
     },
     {
       "id": 860,
@@ -3544,12 +3682,12 @@
       "gold_tokens": 8,
       "silver_tokens": 7,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
-      "arg_tp": 2,
-      "arg_fp": 1,
-      "arg_fn": 7,
-      "arg_f1": 0.3333
+      "arg_tp": 1,
+      "arg_fp": 5,
+      "arg_fn": 8,
+      "arg_f1": 0.1333
     },
     {
       "id": 800,
@@ -3583,12 +3721,12 @@
       "gold_tokens": 23,
       "silver_tokens": 23,
       "pred_tp": 3,
-      "pred_fp": 3,
+      "pred_fp": 4,
       "pred_fn": 0,
       "arg_tp": 8,
-      "arg_fp": 10,
+      "arg_fp": 11,
       "arg_fn": 18,
-      "arg_f1": 0.3636
+      "arg_f1": 0.3556
     },
     {
       "id": 598,
@@ -3596,7 +3734,7 @@
       "gold_tokens": 14,
       "silver_tokens": 14,
       "pred_tp": 1,
-      "pred_fp": 3,
+      "pred_fp": 5,
       "pred_fn": 0,
       "arg_tp": 10,
       "arg_fp": 2,
@@ -3699,13 +3837,13 @@
       "sentence": "Hải thi đại_học không đỗ và có học trường trung_cấp du_lịch .",
       "gold_tokens": 12,
       "silver_tokens": 12,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 9,
-      "arg_f1": 0.0
+      "pred_fn": 1,
+      "arg_tp": 4,
+      "arg_fp": 1,
+      "arg_fn": 5,
+      "arg_f1": 0.5714
     },
     {
       "id": 774,
@@ -3767,10 +3905,10 @@
       "pred_tp": 2,
       "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 13,
-      "arg_fp": 2,
-      "arg_fn": 6,
-      "arg_f1": 0.7647
+      "arg_tp": 14,
+      "arg_fp": 3,
+      "arg_fn": 5,
+      "arg_f1": 0.7778
     },
     {
       "id": 893,
@@ -3780,10 +3918,10 @@
       "pred_tp": 0,
       "pred_fp": 1,
       "pred_fn": 3,
-      "arg_tp": 2,
-      "arg_fp": 4,
-      "arg_fn": 10,
-      "arg_f1": 0.2222
+      "arg_tp": 3,
+      "arg_fp": 5,
+      "arg_fn": 9,
+      "arg_f1": 0.3
     },
     {
       "id": 828,
@@ -3842,9 +3980,9 @@
       "sentence": "Hễ thấy hiện_tượng lạ , anh đem mẫu vào xem qua kính_hiển_vi , ghi_ché",
       "gold_tokens": 23,
       "silver_tokens": 22,
-      "pred_tp": 4,
+      "pred_tp": 5,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 11,
       "arg_fp": 13,
       "arg_fn": 11,
@@ -3920,9 +4058,9 @@
       "sentence": "Họ nhận_định : tuấn và Đào đã thỏa_thuận cùng bỏ trốn nhằm ép bố_mẹ Đà",
       "gold_tokens": 23,
       "silver_tokens": 23,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 3,
-      "pred_fn": 3,
+      "pred_fn": 2,
       "arg_tp": 38,
       "arg_fp": 5,
       "arg_fn": 4,
@@ -4038,12 +4176,12 @@
       "gold_tokens": 14,
       "silver_tokens": 14,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 2,
-      "arg_tp": 2,
-      "arg_fp": 4,
-      "arg_fn": 15,
-      "arg_f1": 0.1739
+      "arg_tp": 3,
+      "arg_fp": 7,
+      "arg_fn": 14,
+      "arg_f1": 0.2222
     },
     {
       "id": 626,
@@ -4063,11 +4201,11 @@
       "sentence": "Khi máy xới vận_hành , hệ_thống dây trân này sẽ xoay theo .",
       "gold_tokens": 13,
       "silver_tokens": 12,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 0,
-      "arg_fp": 8,
+      "arg_fp": 9,
       "arg_fn": 12,
       "arg_f1": 0.0
     },
@@ -4090,10 +4228,10 @@
       "gold_tokens": 8,
       "silver_tokens": 9,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 1,
       "arg_tp": 0,
-      "arg_fp": 4,
+      "arg_fp": 7,
       "arg_fn": 0,
       "arg_f1": 0.0
     },
@@ -4103,12 +4241,12 @@
       "gold_tokens": 22,
       "silver_tokens": 19,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 3,
-      "arg_tp": 3,
-      "arg_fp": 0,
-      "arg_fn": 22,
-      "arg_f1": 0.2143
+      "arg_tp": 4,
+      "arg_fp": 1,
+      "arg_fn": 21,
+      "arg_f1": 0.2667
     },
     {
       "id": 767,
@@ -4155,12 +4293,12 @@
       "gold_tokens": 23,
       "silver_tokens": 22,
       "pred_tp": 2,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 2,
       "arg_tp": 9,
-      "arg_fp": 3,
+      "arg_fp": 4,
       "arg_fn": 17,
-      "arg_f1": 0.4737
+      "arg_f1": 0.4615
     },
     {
       "id": 859,
@@ -4220,12 +4358,12 @@
       "gold_tokens": 14,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 1,
       "arg_tp": 3,
-      "arg_fp": 6,
+      "arg_fp": 7,
       "arg_fn": 10,
-      "arg_f1": 0.2727
+      "arg_f1": 0.2609
     },
     {
       "id": 692,
@@ -4245,13 +4383,13 @@
       "sentence": "Không phải phép thần_kỳ biến quê_hương từ chỗ cay_cực nhất vinh_dự nhậ",
       "gold_tokens": 25,
       "silver_tokens": 24,
-      "pred_tp": 0,
-      "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 4,
-      "arg_fp": 1,
-      "arg_fn": 25,
-      "arg_f1": 0.2353
+      "pred_tp": 1,
+      "pred_fp": 2,
+      "pred_fn": 1,
+      "arg_tp": 9,
+      "arg_fp": 13,
+      "arg_fn": 20,
+      "arg_f1": 0.3529
     },
     {
       "id": 329,
@@ -4285,12 +4423,12 @@
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
-      "arg_tp": 15,
-      "arg_fp": 7,
-      "arg_fn": 0,
-      "arg_f1": 0.8108
+      "arg_tp": 14,
+      "arg_fp": 8,
+      "arg_fn": 1,
+      "arg_f1": 0.7568
     },
     {
       "id": 204,
@@ -4440,9 +4578,9 @@
       "sentence": "Lao_động tiếp_tục bị bán tứ_tán .",
       "gold_tokens": 6,
       "silver_tokens": 6,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 1,
       "arg_fp": 1,
       "arg_fn": 4,
@@ -4453,26 +4591,26 @@
       "sentence": "Liệu anh Nhu có_thể tiếp_tục sống với chị ?",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 2,
-      "arg_tp": 2,
+      "pred_fn": 1,
+      "arg_tp": 6,
       "arg_fp": 3,
-      "arg_fn": 8,
-      "arg_f1": 0.2667
+      "arg_fn": 4,
+      "arg_f1": 0.6316
     },
     {
       "id": 391,
       "sentence": "Liệu con chị có chấp_nhận chị ?",
       "gold_tokens": 7,
       "silver_tokens": 7,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 9,
-      "arg_f1": 0.0
+      "pred_fn": 1,
+      "arg_tp": 2,
+      "arg_fp": 1,
+      "arg_fn": 7,
+      "arg_f1": 0.3333
     },
     {
       "id": 156,
@@ -4548,9 +4686,9 @@
       "pred_fp": 4,
       "pred_fn": 3,
       "arg_tp": 3,
-      "arg_fp": 14,
+      "arg_fp": 12,
       "arg_fn": 16,
-      "arg_f1": 0.1667
+      "arg_f1": 0.1765
     },
     {
       "id": 348,
@@ -4596,13 +4734,26 @@
       "sentence": "Lúc đó nước Pháp chuẩn_bị tấn_công Ai_Cập .",
       "gold_tokens": 8,
       "silver_tokens": 8,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 4,
+      "pred_fn": 0,
+      "arg_tp": 5,
       "arg_fp": 2,
-      "arg_fn": 2,
-      "arg_f1": 0.6667
+      "arg_fn": 1,
+      "arg_f1": 0.7692
+    },
+    {
+      "id": 596,
+      "sentence": "Lý_do : Nam không_thể cưới Lan .",
+      "gold_tokens": 7,
+      "silver_tokens": 6,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 1,
+      "arg_tp": 0,
+      "arg_fp": 0,
+      "arg_fn": 3,
+      "arg_f1": 0.0
     },
     {
       "id": 368,
@@ -4688,12 +4839,12 @@
       "gold_tokens": 18,
       "silver_tokens": 17,
       "pred_tp": 1,
-      "pred_fp": 3,
+      "pred_fp": 4,
       "pred_fn": 1,
       "arg_tp": 7,
-      "arg_fp": 4,
+      "arg_fp": 5,
       "arg_fn": 6,
-      "arg_f1": 0.5833
+      "arg_f1": 0.56
     },
     {
       "id": 744,
@@ -4707,6 +4858,19 @@
       "arg_fp": 1,
       "arg_fn": 2,
       "arg_f1": 0.8966
+    },
+    {
+      "id": 793,
+      "sentence": "Lần đầu_tiên về cố_hương , Jimmy_Phạm chỉ là một việt_kiều Úc làm hướn",
+      "gold_tokens": 19,
+      "silver_tokens": 21,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 1,
+      "arg_tp": 3,
+      "arg_fp": 12,
+      "arg_fn": 13,
+      "arg_f1": 0.1935
     },
     {
       "id": 44,
@@ -4726,13 +4890,13 @@
       "sentence": "Lập_tức Tùng copy thư trong email của Hải vào đĩa_mềm và chuồn ra ngoà",
       "gold_tokens": 16,
       "silver_tokens": 16,
-      "pred_tp": 0,
-      "pred_fp": 2,
-      "pred_fn": 2,
-      "arg_tp": 0,
-      "arg_fp": 1,
-      "arg_fn": 12,
-      "arg_f1": 0.0
+      "pred_tp": 1,
+      "pred_fp": 4,
+      "pred_fn": 1,
+      "arg_tp": 6,
+      "arg_fp": 3,
+      "arg_fn": 6,
+      "arg_f1": 0.5714
     },
     {
       "id": 256,
@@ -4794,10 +4958,10 @@
       "pred_tp": 2,
       "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 4,
-      "arg_fp": 9,
-      "arg_fn": 9,
-      "arg_f1": 0.3077
+      "arg_tp": 5,
+      "arg_fp": 8,
+      "arg_fn": 8,
+      "arg_f1": 0.3846
     },
     {
       "id": 874,
@@ -4837,6 +5001,19 @@
       "arg_fp": 8,
       "arg_fn": 8,
       "arg_f1": 0.1111
+    },
+    {
+      "id": 444,
+      "sentence": "Máy gom lúa của anh Tư ra_đời sau gần ba tháng miệt_mài chế_tạo .",
+      "gold_tokens": 14,
+      "silver_tokens": 14,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 6,
+      "arg_fp": 5,
+      "arg_fn": 6,
+      "arg_f1": 0.5217
     },
     {
       "id": 699,
@@ -4883,12 +5060,12 @@
       "gold_tokens": 17,
       "silver_tokens": 18,
       "pred_tp": 0,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 19,
-      "arg_f1": 0.0
+      "arg_tp": 3,
+      "arg_fp": 9,
+      "arg_fn": 16,
+      "arg_f1": 0.1935
     },
     {
       "id": 323,
@@ -4908,13 +5085,13 @@
       "sentence": "Mặt_khác , Nam thừa hiểu không_thể bỏ vợ cũng như không_thể cưới Lan .",
       "gold_tokens": 14,
       "silver_tokens": 12,
-      "pred_tp": 1,
-      "pred_fp": 1,
-      "pred_fn": 2,
+      "pred_tp": 2,
+      "pred_fp": 3,
+      "pred_fn": 1,
       "arg_tp": 2,
-      "arg_fp": 1,
+      "arg_fp": 3,
       "arg_fn": 11,
-      "arg_f1": 0.25
+      "arg_f1": 0.2222
     },
     {
       "id": 358,
@@ -5028,10 +5205,10 @@
       "pred_tp": 1,
       "pred_fp": 0,
       "pred_fn": 1,
-      "arg_tp": 6,
-      "arg_fp": 1,
-      "arg_fn": 5,
-      "arg_f1": 0.6667
+      "arg_tp": 7,
+      "arg_fp": 0,
+      "arg_fn": 4,
+      "arg_f1": 0.7778
     },
     {
       "id": 61,
@@ -5051,26 +5228,26 @@
       "sentence": "Mỗi tuần họ đều được đi thăm các nạn_nhân chất_độc da_cam để tận_mắt c",
       "gold_tokens": 22,
       "silver_tokens": 23,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 2,
-      "pred_fn": 2,
-      "arg_tp": 17,
-      "arg_fp": 2,
-      "arg_fn": 13,
-      "arg_f1": 0.6939
+      "pred_fn": 1,
+      "arg_tp": 21,
+      "arg_fp": 3,
+      "arg_fn": 9,
+      "arg_f1": 0.7778
     },
     {
       "id": 831,
       "sentence": "Một : gọi vào số Y và nói là là nhân_viên bưu_điện đến sửa điện_thoại ",
       "gold_tokens": 16,
       "silver_tokens": 15,
-      "pred_tp": 2,
-      "pred_fp": 0,
-      "pred_fn": 3,
+      "pred_tp": 3,
+      "pred_fp": 1,
+      "pred_fn": 2,
       "arg_tp": 8,
-      "arg_fp": 3,
+      "arg_fp": 8,
       "arg_fn": 6,
-      "arg_f1": 0.64
+      "arg_f1": 0.5333
     },
     {
       "id": 687,
@@ -5091,12 +5268,12 @@
       "gold_tokens": 12,
       "silver_tokens": 13,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
       "arg_tp": 3,
-      "arg_fp": 0,
+      "arg_fp": 1,
       "arg_fn": 11,
-      "arg_f1": 0.3529
+      "arg_f1": 0.3333
     },
     {
       "id": 411,
@@ -5220,9 +5397,9 @@
       "sentence": "Mới đây người dân cù_lao Rùa đã kiến_nghị tập_thể lên thủ_tướng Chính_",
       "gold_tokens": 20,
       "silver_tokens": 18,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 10,
       "arg_fp": 6,
       "arg_fn": 16,
@@ -5311,13 +5488,13 @@
       "sentence": "Nay đọc báo , rất mừng thấy anh được pháp_luật bảo_vệ nhưng lại rất bu",
       "gold_tokens": 22,
       "silver_tokens": 22,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 5,
-      "arg_tp": 6,
-      "arg_fp": 0,
-      "arg_fn": 23,
-      "arg_f1": 0.3429
+      "pred_fn": 4,
+      "arg_tp": 7,
+      "arg_fp": 2,
+      "arg_fn": 22,
+      "arg_f1": 0.3684
     },
     {
       "id": 582,
@@ -5325,12 +5502,12 @@
       "gold_tokens": 19,
       "silver_tokens": 19,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
-      "arg_tp": 4,
-      "arg_fp": 5,
-      "arg_fn": 15,
-      "arg_f1": 0.2857
+      "arg_tp": 5,
+      "arg_fp": 15,
+      "arg_fn": 14,
+      "arg_f1": 0.2564
     },
     {
       "id": 451,
@@ -5351,7 +5528,7 @@
       "gold_tokens": 23,
       "silver_tokens": 23,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 4,
       "arg_tp": 13,
       "arg_fp": 15,
@@ -5363,39 +5540,39 @@
       "sentence": "Nghĩa_là mối quan_hệ này không có cơ_sở vững_chắc và không đáng ủng_hộ",
       "gold_tokens": 13,
       "silver_tokens": 13,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 7,
+      "pred_fn": 1,
+      "arg_tp": 15,
       "arg_fp": 0,
-      "arg_fn": 10,
-      "arg_f1": 0.5833
+      "arg_fn": 2,
+      "arg_f1": 0.9375
     },
     {
       "id": 376,
       "sentence": "Nghị_quyết lần này khẳng_định Nhà_nước có trách_nhiệm bảo_vệ quyền_lợi",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 12,
+      "pred_fn": 0,
+      "arg_tp": 16,
       "arg_fp": 6,
-      "arg_fn": 15,
-      "arg_f1": 0.5333
+      "arg_fn": 11,
+      "arg_f1": 0.6531
     },
     {
       "id": 209,
       "sentence": "Ngoài_ra , bà_con sẽ được tạo điều_kiện giải_quyết nhanh_chóng , thỏa_",
       "gold_tokens": 18,
       "silver_tokens": 18,
-      "pred_tp": 2,
-      "pred_fp": 2,
-      "pred_fn": 1,
-      "arg_tp": 12,
-      "arg_fp": 1,
-      "arg_fn": 11,
-      "arg_f1": 0.6667
+      "pred_tp": 3,
+      "pred_fp": 3,
+      "pred_fn": 0,
+      "arg_tp": 21,
+      "arg_fp": 2,
+      "arg_fn": 2,
+      "arg_f1": 0.913
     },
     {
       "id": 129,
@@ -5403,7 +5580,7 @@
       "gold_tokens": 20,
       "silver_tokens": 20,
       "pred_tp": 3,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 12,
       "arg_fp": 2,
@@ -5422,6 +5599,19 @@
       "arg_fp": 1,
       "arg_fn": 21,
       "arg_f1": 0.3529
+    },
+    {
+      "id": 815,
+      "sentence": "Nguyên_nhân : chúc_mừng Tùng đạt điểm cao ở học_phần 1 .",
+      "gold_tokens": 11,
+      "silver_tokens": 12,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 2,
+      "arg_fp": 4,
+      "arg_fn": 10,
+      "arg_f1": 0.2222
     },
     {
       "id": 434,
@@ -5450,6 +5640,19 @@
       "arg_f1": 0.6364
     },
     {
+      "id": 327,
+      "sentence": "Ngày 25 - 10 – 2003 , chúng_tôi ngơ_ngác khi bị cảnh_sát bắt ngay tron",
+      "gold_tokens": 22,
+      "silver_tokens": 22,
+      "pred_tp": 2,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 10,
+      "arg_fp": 10,
+      "arg_fn": 22,
+      "arg_f1": 0.3846
+    },
+    {
       "id": 662,
       "sentence": "Ngày thứ năm Đào điện về nhà nói vắn_tắt : \" Con đang chạy tiền giúp a",
       "gold_tokens": 20,
@@ -5463,30 +5666,43 @@
       "arg_f1": 0.2439
     },
     {
+      "id": 733,
+      "sentence": "Ngày ấy chúng_tôi gọi là : rủ nhau đi làm cách_mạng \" .",
+      "gold_tokens": 13,
+      "silver_tokens": 12,
+      "pred_tp": 0,
+      "pred_fp": 2,
+      "pred_fn": 1,
+      "arg_tp": 1,
+      "arg_fp": 7,
+      "arg_fn": 8,
+      "arg_f1": 0.1176
+    },
+    {
       "id": 488,
       "sentence": "Người dân cho biết chiếc cẩu cạp này của công_ty Xây_dựng Bình_Dương \"",
       "gold_tokens": 25,
       "silver_tokens": 24,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 17,
+      "pred_fn": 1,
+      "arg_tp": 28,
       "arg_fp": 1,
-      "arg_fn": 21,
-      "arg_f1": 0.6071
+      "arg_fn": 10,
+      "arg_f1": 0.8358
     },
     {
       "id": 640,
       "sentence": "Người dân hai bên bờ kêu_gào không thấu , khiếu_nại tập_thể cũng không",
       "gold_tokens": 17,
       "silver_tokens": 16,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 3,
-      "arg_fp": 1,
-      "arg_fn": 10,
-      "arg_f1": 0.3529
+      "pred_fn": 1,
+      "arg_tp": 8,
+      "arg_fp": 3,
+      "arg_fn": 5,
+      "arg_f1": 0.6667
     },
     {
       "id": 553,
@@ -5545,13 +5761,13 @@
       "sentence": "Người này ông Phong cũng phải có quen_biết .",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 7,
-      "arg_f1": 0.0
+      "pred_fn": 0,
+      "arg_tp": 5,
+      "arg_fp": 1,
+      "arg_fn": 2,
+      "arg_f1": 0.7692
     },
     {
       "id": 446,
@@ -5588,9 +5804,9 @@
       "pred_fp": 4,
       "pred_fn": 1,
       "arg_tp": 22,
-      "arg_fp": 15,
+      "arg_fp": 14,
       "arg_fn": 5,
-      "arg_f1": 0.6875
+      "arg_f1": 0.6984
     },
     {
       "id": 130,
@@ -5649,26 +5865,26 @@
       "sentence": "Nhiều người kiệt_sức , chúng_tôi phải tự cứu mình .",
       "gold_tokens": 10,
       "silver_tokens": 10,
-      "pred_tp": 1,
-      "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 2,
-      "arg_fp": 0,
-      "arg_fn": 3,
-      "arg_f1": 0.5714
+      "pred_tp": 2,
+      "pred_fp": 1,
+      "pred_fn": 0,
+      "arg_tp": 3,
+      "arg_fp": 2,
+      "arg_fn": 2,
+      "arg_f1": 0.6
     },
     {
       "id": 10,
       "sentence": "Nhiều người từ nghèo_khó nhất xã đã có vốn mở cơ_sở , lập trang_trại ,",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 2,
-      "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 5,
-      "arg_fp": 6,
-      "arg_fn": 22,
-      "arg_f1": 0.2632
+      "pred_tp": 3,
+      "pred_fp": 2,
+      "pred_fn": 0,
+      "arg_tp": 6,
+      "arg_fp": 14,
+      "arg_fn": 21,
+      "arg_f1": 0.2553
     },
     {
       "id": 534,
@@ -5701,13 +5917,13 @@
       "sentence": "Nhiều việt_kiều trẻ tuổi , nhiều trí_thức kiều_bào có nguyện_vọng được",
       "gold_tokens": 15,
       "silver_tokens": 15,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 1,
+      "pred_fn": 1,
+      "arg_tp": 8,
       "arg_fp": 8,
-      "arg_fn": 13,
-      "arg_f1": 0.087
+      "arg_fn": 6,
+      "arg_f1": 0.5333
     },
     {
       "id": 630,
@@ -5715,7 +5931,7 @@
       "gold_tokens": 19,
       "silver_tokens": 19,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 17,
       "arg_fp": 4,
@@ -5753,13 +5969,13 @@
       "sentence": "Nhân niềm vui đó , Hải quyết_định dành ngày cuối tuần đi bơi và mua_sắ",
       "gold_tokens": 16,
       "silver_tokens": 16,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 8,
+      "pred_fn": 0,
+      "arg_tp": 11,
       "arg_fp": 4,
-      "arg_fn": 9,
-      "arg_f1": 0.5517
+      "arg_fn": 6,
+      "arg_f1": 0.6875
     },
     {
       "id": 334,
@@ -5779,9 +5995,9 @@
       "sentence": "Nhìn căn chòi tạm_bợ mà gia_đình anh Đại cùng nhóm công_nhân chống tiê",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 2,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 13,
       "arg_fp": 3,
       "arg_fn": 26,
@@ -5832,7 +6048,7 @@
       "gold_tokens": 18,
       "silver_tokens": 18,
       "pred_tp": 0,
-      "pred_fp": 3,
+      "pred_fp": 4,
       "pred_fn": 2,
       "arg_tp": 5,
       "arg_fp": 7,
@@ -5936,12 +6152,12 @@
       "gold_tokens": 13,
       "silver_tokens": 13,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
       "arg_tp": 4,
-      "arg_fp": 5,
+      "arg_fp": 6,
       "arg_fn": 5,
-      "arg_f1": 0.4444
+      "arg_f1": 0.4211
     },
     {
       "id": 192,
@@ -6001,7 +6217,7 @@
       "gold_tokens": 21,
       "silver_tokens": 19,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 1,
       "arg_tp": 15,
       "arg_fp": 5,
@@ -6040,7 +6256,7 @@
       "gold_tokens": 21,
       "silver_tokens": 21,
       "pred_tp": 3,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 2,
       "arg_tp": 1,
       "arg_fp": 3,
@@ -6059,6 +6275,19 @@
       "arg_fp": 3,
       "arg_fn": 3,
       "arg_f1": 0.4
+    },
+    {
+      "id": 474,
+      "sentence": "Nhưng Nam vô_cùng sợ vợ biết chuyện .",
+      "gold_tokens": 8,
+      "silver_tokens": 7,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 1,
+      "arg_fp": 1,
+      "arg_fn": 6,
+      "arg_f1": 0.2222
     },
     {
       "id": 832,
@@ -6104,13 +6333,13 @@
       "sentence": "Nhưng tại hội_nghị hôm_qua , tiếng_nói từ các sở tài_nguyên & môi_trườ",
       "gold_tokens": 24,
       "silver_tokens": 24,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 12,
+      "pred_fn": 0,
+      "arg_tp": 14,
       "arg_fp": 6,
-      "arg_fn": 7,
-      "arg_f1": 0.6486
+      "arg_fn": 5,
+      "arg_f1": 0.7179
     },
     {
       "id": 364,
@@ -6131,12 +6360,12 @@
       "gold_tokens": 23,
       "silver_tokens": 24,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 9,
-      "arg_fp": 12,
-      "arg_fn": 10,
-      "arg_f1": 0.45
+      "arg_tp": 11,
+      "arg_fp": 13,
+      "arg_fn": 8,
+      "arg_f1": 0.5116
     },
     {
       "id": 827,
@@ -6260,9 +6489,9 @@
       "sentence": "Nói rồi anh cán_bộ ôm tập hồ_sơ đi .",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 1,
+      "pred_tp": 0,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 2,
       "arg_tp": 2,
       "arg_fp": 0,
       "arg_fn": 4,
@@ -6287,7 +6516,7 @@
       "gold_tokens": 20,
       "silver_tokens": 20,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 4,
       "arg_fp": 9,
@@ -6295,17 +6524,30 @@
       "arg_f1": 0.4444
     },
     {
+      "id": 685,
+      "sentence": "Năm 1992 vợ_chồng con_cái anh Tư đùm_túm nhau về khai_hoang , lập_nghi",
+      "gold_tokens": 24,
+      "silver_tokens": 22,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 3,
+      "arg_tp": 14,
+      "arg_fp": 2,
+      "arg_fn": 19,
+      "arg_f1": 0.5714
+    },
+    {
       "id": 878,
       "sentence": "Năm 2000 anh còn bạo_phổi lên trường ĐH Nông_lâm TP_._HCM làm đơn xin ",
       "gold_tokens": 20,
       "silver_tokens": 22,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
       "arg_tp": 13,
-      "arg_fp": 8,
+      "arg_fp": 14,
       "arg_fn": 13,
-      "arg_f1": 0.5532
+      "arg_f1": 0.4906
     },
     {
       "id": 801,
@@ -6315,23 +6557,23 @@
       "pred_tp": 1,
       "pred_fp": 1,
       "pred_fn": 1,
-      "arg_tp": 6,
-      "arg_fp": 9,
-      "arg_fn": 16,
-      "arg_f1": 0.3243
+      "arg_tp": 7,
+      "arg_fp": 11,
+      "arg_fn": 15,
+      "arg_f1": 0.35
     },
     {
       "id": 431,
       "sentence": "Năm thám_tử là bình , Hậu , Tiến , Hải , Hoa được giao nhiệm_vụ .",
       "gold_tokens": 16,
       "silver_tokens": 16,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 22,
-      "arg_f1": 0.0
+      "pred_fn": 1,
+      "arg_tp": 8,
+      "arg_fp": 4,
+      "arg_fn": 14,
+      "arg_f1": 0.4706
     },
     {
       "id": 163,
@@ -6351,13 +6593,13 @@
       "sentence": "Nếu \" chưa rõ , HĐXX có_thể thẩm_vấn bộ_trưởng Ngọ và thứ_trưởng phụ_t",
       "gold_tokens": 23,
       "silver_tokens": 22,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 38,
-      "arg_f1": 0.0
+      "pred_fn": 2,
+      "arg_tp": 16,
+      "arg_fp": 1,
+      "arg_fn": 22,
+      "arg_f1": 0.5818
     },
     {
       "id": 719,
@@ -6380,10 +6622,10 @@
       "pred_tp": 2,
       "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 5,
-      "arg_fp": 2,
-      "arg_fn": 3,
-      "arg_f1": 0.6667
+      "arg_tp": 4,
+      "arg_fp": 3,
+      "arg_fn": 4,
+      "arg_f1": 0.5333
     },
     {
       "id": 588,
@@ -6429,26 +6671,26 @@
       "sentence": "Nếu ách_tắc dồn cục thì sẽ khó tránh hậu_quả lớn .",
       "gold_tokens": 11,
       "silver_tokens": 10,
-      "pred_tp": 1,
-      "pred_fp": 2,
-      "pred_fn": 1,
+      "pred_tp": 2,
+      "pred_fp": 3,
+      "pred_fn": 0,
       "arg_tp": 6,
-      "arg_fp": 2,
+      "arg_fp": 3,
       "arg_fn": 6,
-      "arg_f1": 0.6
+      "arg_f1": 0.5714
     },
     {
       "id": 362,
       "sentence": "Nếu đơn_vị đầu_tư không cân_nhắc , lựa_chọn phương_án an_toàn tuyệt_đố",
       "gold_tokens": 20,
       "silver_tokens": 20,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 12,
+      "pred_fn": 2,
+      "arg_tp": 16,
       "arg_fp": 0,
-      "arg_fn": 17,
-      "arg_f1": 0.5854
+      "arg_fn": 13,
+      "arg_f1": 0.7111
     },
     {
       "id": 152,
@@ -6488,6 +6730,19 @@
       "arg_fp": 6,
       "arg_fn": 15,
       "arg_f1": 0.16
+    },
+    {
+      "id": 554,
+      "sentence": "Nỗi đau da_cam lên_tiếng .",
+      "gold_tokens": 5,
+      "silver_tokens": 5,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 3,
+      "arg_fp": 0,
+      "arg_fn": 0,
+      "arg_f1": 1.0
     },
     {
       "id": 848,
@@ -6546,13 +6801,13 @@
       "sentence": "Phân_tích âm_mưu của anh_em Tuấn và chấp_nhận cho Tuấn 20 triệu đồng v",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 22,
-      "arg_f1": 0.0
+      "pred_fn": 2,
+      "arg_tp": 4,
+      "arg_fp": 2,
+      "arg_fn": 18,
+      "arg_f1": 0.2857
     },
     {
       "id": 75,
@@ -6599,12 +6854,12 @@
       "gold_tokens": 4,
       "silver_tokens": 5,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 0,
+      "arg_tp": 2,
       "arg_fp": 0,
-      "arg_fn": 2,
-      "arg_f1": 0.0
+      "arg_fn": 0,
+      "arg_f1": 1.0
     },
     {
       "id": 798,
@@ -6663,13 +6918,13 @@
       "sentence": "Phải mấy phút sau mới có một ông to cao đeo kính xuất_hiện .",
       "gold_tokens": 14,
       "silver_tokens": 14,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 2,
-      "arg_tp": 1,
+      "pred_fn": 1,
+      "arg_tp": 5,
       "arg_fp": 9,
-      "arg_fn": 11,
-      "arg_f1": 0.0909
+      "arg_fn": 7,
+      "arg_f1": 0.3846
     },
     {
       "id": 321,
@@ -6689,13 +6944,13 @@
       "sentence": "Phần việc còn lại tuy đơn_giản song lại có tính quan_trọng nhất , đó l",
       "gold_tokens": 22,
       "silver_tokens": 23,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 3,
+      "pred_fn": 2,
       "arg_tp": 2,
-      "arg_fp": 5,
+      "arg_fp": 14,
       "arg_fn": 16,
-      "arg_f1": 0.16
+      "arg_f1": 0.1176
     },
     {
       "id": 911,
@@ -6707,8 +6962,8 @@
       "pred_fn": 3,
       "arg_tp": 6,
       "arg_fp": 2,
-      "arg_fn": 16,
-      "arg_f1": 0.4
+      "arg_fn": 17,
+      "arg_f1": 0.3871
     },
     {
       "id": 622,
@@ -6754,13 +7009,13 @@
       "sentence": "Quá_trình tiêu_cực , nhũng_nhiễu kéo_dài liên_tục gần hai năm mới bị p",
       "gold_tokens": 13,
       "silver_tokens": 13,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 4,
-      "arg_fp": 0,
-      "arg_fn": 5,
-      "arg_f1": 0.6154
+      "pred_fn": 0,
+      "arg_tp": 5,
+      "arg_fp": 6,
+      "arg_fn": 4,
+      "arg_f1": 0.5
     },
     {
       "id": 393,
@@ -6806,9 +7061,9 @@
       "sentence": "Ra tù bà tiếp_tục tham_gia đảng_bộ cộng_sản địa_phương và tích_cực tha",
       "gold_tokens": 24,
       "silver_tokens": 22,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 16,
       "arg_fp": 5,
       "arg_fn": 4,
@@ -6832,13 +7087,13 @@
       "sentence": "Riêng về xuất_khẩu lao_động , anh Luyến có cách nghĩ riêng : \" Du_học_",
       "gold_tokens": 20,
       "silver_tokens": 20,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 5,
+      "pred_fn": 0,
+      "arg_tp": 13,
       "arg_fp": 1,
-      "arg_fn": 16,
-      "arg_f1": 0.3704
+      "arg_fn": 8,
+      "arg_f1": 0.7429
     },
     {
       "id": 205,
@@ -6871,9 +7126,9 @@
       "sentence": "Rất đơn_giản : gõ cửa tiến vào nhà và xin_lỗi đã nhầm nhà .",
       "gold_tokens": 14,
       "silver_tokens": 13,
-      "pred_tp": 2,
-      "pred_fp": 1,
-      "pred_fn": 2,
+      "pred_tp": 3,
+      "pred_fp": 2,
+      "pred_fn": 1,
       "arg_tp": 0,
       "arg_fp": 4,
       "arg_fn": 7,
@@ -6885,7 +7140,7 @@
       "gold_tokens": 9,
       "silver_tokens": 9,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 1,
       "arg_fp": 3,
@@ -6897,13 +7152,13 @@
       "sentence": "Rồi một tối điện_thoại cố_định reo , chị thưa máy thì đầu dây bên kia ",
       "gold_tokens": 23,
       "silver_tokens": 24,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 3,
-      "pred_fn": 2,
-      "arg_tp": 2,
-      "arg_fp": 4,
-      "arg_fn": 22,
-      "arg_f1": 0.1333
+      "pred_fn": 1,
+      "arg_tp": 6,
+      "arg_fp": 5,
+      "arg_fn": 18,
+      "arg_f1": 0.3429
     },
     {
       "id": 496,
@@ -6937,12 +7192,12 @@
       "gold_tokens": 25,
       "silver_tokens": 24,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 13,
-      "arg_fp": 7,
-      "arg_fn": 9,
-      "arg_f1": 0.619
+      "arg_tp": 17,
+      "arg_fp": 9,
+      "arg_fn": 5,
+      "arg_f1": 0.7083
     },
     {
       "id": 7,
@@ -6989,7 +7244,7 @@
       "gold_tokens": 16,
       "silver_tokens": 16,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 11,
       "arg_fp": 6,
@@ -7096,9 +7351,9 @@
       "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 6,
-      "arg_fp": 14,
+      "arg_fp": 15,
       "arg_fn": 12,
-      "arg_f1": 0.3158
+      "arg_f1": 0.3077
     },
     {
       "id": 32,
@@ -7106,12 +7361,12 @@
       "gold_tokens": 8,
       "silver_tokens": 8,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 1,
-      "arg_fn": 6,
-      "arg_f1": 0.0
+      "arg_tp": 4,
+      "arg_fp": 2,
+      "arg_fn": 2,
+      "arg_f1": 0.6667
     },
     {
       "id": 422,
@@ -7248,26 +7503,26 @@
       "sentence": "Theo_dõi câu_chuyện này , tôi thấy những người thẳng_thắn như anh Đại ",
       "gold_tokens": 21,
       "silver_tokens": 20,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 0,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 17,
-      "arg_fp": 1,
+      "arg_fp": 3,
       "arg_fn": 9,
-      "arg_f1": 0.7727
+      "arg_f1": 0.7391
     },
     {
       "id": 260,
       "sentence": "Theo dự_kiến , hôm_nay 24-3 , HĐXX sẽ chuyển sang thẩm_vấn nội_dung cố",
       "gold_tokens": 22,
       "silver_tokens": 22,
-      "pred_tp": 1,
-      "pred_fp": 1,
-      "pred_fn": 1,
-      "arg_tp": 4,
-      "arg_fp": 12,
-      "arg_fn": 14,
-      "arg_f1": 0.2353
+      "pred_tp": 2,
+      "pred_fp": 3,
+      "pred_fn": 0,
+      "arg_tp": 13,
+      "arg_fp": 14,
+      "arg_fn": 5,
+      "arg_f1": 0.5778
     },
     {
       "id": 673,
@@ -7290,10 +7545,10 @@
       "pred_tp": 2,
       "pred_fp": 0,
       "pred_fn": 0,
-      "arg_tp": 10,
+      "arg_tp": 11,
       "arg_fp": 1,
-      "arg_fn": 2,
-      "arg_f1": 0.8696
+      "arg_fn": 1,
+      "arg_f1": 0.9167
     },
     {
       "id": 646,
@@ -7387,6 +7642,19 @@
       "arg_f1": 0.549
     },
     {
+      "id": 679,
+      "sentence": "Thám_tử Tuấn trong vai Hải xuất_hiện bên Tùng một_cách lãnh_đạm .",
+      "gold_tokens": 11,
+      "silver_tokens": 10,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 0,
+      "arg_tp": 1,
+      "arg_fp": 6,
+      "arg_fn": 8,
+      "arg_f1": 0.125
+    },
+    {
       "id": 751,
       "sentence": "Tháng 3 - 2005 chúng_tôi cùng hội Hữu_nghị pháp - Việt sẽ tổ_chức hội_",
       "gold_tokens": 19,
@@ -7413,17 +7681,30 @@
       "arg_f1": 0.3333
     },
     {
+      "id": 279,
+      "sentence": "Tháp_tùng bộ_trưởng Ngọ là một_số cán_bộ cấp vụ của bộ NN & PTNT , cũn",
+      "gold_tokens": 20,
+      "silver_tokens": 21,
+      "pred_tp": 2,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 8,
+      "arg_fp": 4,
+      "arg_fn": 10,
+      "arg_f1": 0.5333
+    },
+    {
       "id": 91,
       "sentence": "Thân mình chịu cực , chịu khổ đã quen không màng đến , nhưng thương nh",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 0,
-      "pred_fp": 2,
-      "pred_fn": 5,
-      "arg_tp": 3,
-      "arg_fp": 1,
-      "arg_fn": 21,
-      "arg_f1": 0.2143
+      "pred_tp": 2,
+      "pred_fp": 1,
+      "pred_fn": 3,
+      "arg_tp": 4,
+      "arg_fp": 8,
+      "arg_fn": 20,
+      "arg_f1": 0.2222
     },
     {
       "id": 780,
@@ -7443,13 +7724,13 @@
       "sentence": "Thêm nữa , nếu câu_chuyện này kết_thúc mà không ảnh_hưởng đến tình_cảm",
       "gold_tokens": 18,
       "silver_tokens": 18,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
+      "pred_fn": 1,
       "arg_tp": 3,
-      "arg_fp": 1,
+      "arg_fp": 8,
       "arg_fn": 19,
-      "arg_f1": 0.2308
+      "arg_f1": 0.1818
     },
     {
       "id": 414,
@@ -7470,12 +7751,12 @@
       "gold_tokens": 16,
       "silver_tokens": 16,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 15,
-      "arg_f1": 0.0
+      "arg_tp": 3,
+      "arg_fp": 1,
+      "arg_fn": 12,
+      "arg_f1": 0.3158
     },
     {
       "id": 858,
@@ -7524,23 +7805,23 @@
       "pred_tp": 2,
       "pred_fp": 3,
       "pred_fn": 1,
-      "arg_tp": 13,
-      "arg_fp": 17,
-      "arg_fn": 8,
-      "arg_f1": 0.5098
+      "arg_tp": 12,
+      "arg_fp": 7,
+      "arg_fn": 9,
+      "arg_f1": 0.6
     },
     {
       "id": 633,
       "sentence": "Thậm_chí nhiều cù_lao , di_tích lịch_sử ... bị thu_hẹp dần nhưng chẳng",
       "gold_tokens": 22,
       "silver_tokens": 22,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 4,
-      "arg_fp": 2,
-      "arg_fn": 20,
-      "arg_f1": 0.2667
+      "pred_fn": 1,
+      "arg_tp": 7,
+      "arg_fp": 3,
+      "arg_fn": 17,
+      "arg_f1": 0.4118
     },
     {
       "id": 910,
@@ -7561,25 +7842,25 @@
       "gold_tokens": 13,
       "silver_tokens": 14,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 2,
       "arg_tp": 3,
-      "arg_fp": 7,
+      "arg_fp": 8,
       "arg_fn": 12,
-      "arg_f1": 0.24
+      "arg_f1": 0.2308
     },
     {
       "id": 458,
       "sentence": "Thắng biết thêm cô gái tên là Lan .",
       "gold_tokens": 9,
       "silver_tokens": 9,
-      "pred_tp": 1,
-      "pred_fp": 0,
-      "pred_fn": 1,
+      "pred_tp": 2,
+      "pred_fp": 1,
+      "pred_fn": 0,
       "arg_tp": 6,
-      "arg_fp": 0,
+      "arg_fp": 1,
       "arg_fn": 2,
-      "arg_f1": 0.8571
+      "arg_f1": 0.8
     },
     {
       "id": 452,
@@ -7600,7 +7881,7 @@
       "gold_tokens": 18,
       "silver_tokens": 18,
       "pred_tp": 3,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 11,
       "arg_fp": 2,
@@ -7729,13 +8010,13 @@
       "sentence": "Thế nhưng , đi dọc theo sông Đồng_Nai chúng_tôi chứng_kiến tình_hình k",
       "gold_tokens": 17,
       "silver_tokens": 17,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 5,
+      "pred_fn": 1,
+      "arg_tp": 10,
       "arg_fp": 5,
-      "arg_fn": 18,
-      "arg_f1": 0.303
+      "arg_fn": 13,
+      "arg_f1": 0.5263
     },
     {
       "id": 794,
@@ -7795,12 +8076,12 @@
       "gold_tokens": 9,
       "silver_tokens": 10,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 1,
       "arg_tp": 4,
-      "arg_fp": 1,
+      "arg_fp": 2,
       "arg_fn": 4,
-      "arg_f1": 0.6154
+      "arg_f1": 0.5714
     },
     {
       "id": 200,
@@ -7898,13 +8179,13 @@
       "sentence": "Thực_hiện tốt các quy_định đối_với cán_bộ lãnh_đạo , quản_lý để xảy ra",
       "gold_tokens": 20,
       "silver_tokens": 20,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 6,
+      "pred_fn": 2,
+      "arg_tp": 19,
       "arg_fp": 4,
-      "arg_fn": 17,
-      "arg_f1": 0.3636
+      "arg_fn": 4,
+      "arg_f1": 0.8261
     },
     {
       "id": 665,
@@ -7951,7 +8232,7 @@
       "gold_tokens": 18,
       "silver_tokens": 18,
       "pred_tp": 2,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 0,
       "arg_tp": 18,
       "arg_fp": 3,
@@ -7977,7 +8258,7 @@
       "gold_tokens": 13,
       "silver_tokens": 14,
       "pred_tp": 0,
-      "pred_fp": 2,
+      "pred_fp": 5,
       "pred_fn": 2,
       "arg_tp": 4,
       "arg_fp": 4,
@@ -8015,9 +8296,9 @@
       "sentence": "Trong khi đó , nhiều ống cống bêtông đã trơ sắt ra ngoài cũng được lắp",
       "gold_tokens": 18,
       "silver_tokens": 18,
-      "pred_tp": 1,
-      "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_tp": 2,
+      "pred_fp": 2,
+      "pred_fn": 0,
       "arg_tp": 2,
       "arg_fp": 6,
       "arg_fn": 12,
@@ -8107,7 +8388,7 @@
       "gold_tokens": 14,
       "silver_tokens": 14,
       "pred_tp": 2,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 8,
       "arg_fp": 10,
@@ -8158,13 +8439,13 @@
       "sentence": "Trước khi trả_lời Nhi , Thắng xem_lại nhật_ký thám_tử .",
       "gold_tokens": 10,
       "silver_tokens": 10,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 2,
+      "pred_fn": 0,
+      "arg_tp": 8,
       "arg_fp": 0,
-      "arg_fn": 6,
-      "arg_f1": 0.4
+      "arg_fn": 0,
+      "arg_f1": 1.0
     },
     {
       "id": 309,
@@ -8178,6 +8459,19 @@
       "arg_fp": 4,
       "arg_fn": 4,
       "arg_f1": 0.6364
+    },
+    {
+      "id": 695,
+      "sentence": "Trước_mắt đề_nghị gia_đình bà Hồng đăng_ký dịch_vụ hiện số điện_thoại ",
+      "gold_tokens": 24,
+      "silver_tokens": 25,
+      "pred_tp": 3,
+      "pred_fp": 3,
+      "pred_fn": 1,
+      "arg_tp": 11,
+      "arg_fp": 6,
+      "arg_fn": 14,
+      "arg_f1": 0.5238
     },
     {
       "id": 265,
@@ -8210,13 +8504,13 @@
       "sentence": "Trước đó , hết pháp rồi Nhật loan tin Nguyễn_Ái_Quốc đã chết khiến mọi",
       "gold_tokens": 19,
       "silver_tokens": 18,
-      "pred_tp": 0,
-      "pred_fp": 2,
-      "pred_fn": 4,
-      "arg_tp": 0,
-      "arg_fp": 4,
-      "arg_fn": 25,
-      "arg_f1": 0.0
+      "pred_tp": 1,
+      "pred_fp": 3,
+      "pred_fn": 3,
+      "arg_tp": 8,
+      "arg_fp": 7,
+      "arg_fn": 17,
+      "arg_f1": 0.4
     },
     {
       "id": 118,
@@ -8224,12 +8518,12 @@
       "gold_tokens": 17,
       "silver_tokens": 17,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 0,
+      "arg_tp": 11,
       "arg_fp": 0,
-      "arg_fn": 15,
-      "arg_f1": 0.0
+      "arg_fn": 4,
+      "arg_f1": 0.8462
     },
     {
       "id": 225,
@@ -8250,7 +8544,7 @@
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 13,
       "arg_fp": 0,
@@ -8265,10 +8559,10 @@
       "pred_tp": 1,
       "pred_fp": 0,
       "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 8,
-      "arg_fn": 12,
-      "arg_f1": 0.0
+      "arg_tp": 2,
+      "arg_fp": 12,
+      "arg_fn": 10,
+      "arg_f1": 0.1538
     },
     {
       "id": 352,
@@ -8279,9 +8573,9 @@
       "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 14,
-      "arg_fp": 3,
+      "arg_fp": 2,
       "arg_fn": 6,
-      "arg_f1": 0.7568
+      "arg_f1": 0.7778
     },
     {
       "id": 367,
@@ -8369,10 +8663,10 @@
       "pred_tp": 2,
       "pred_fp": 1,
       "pred_fn": 0,
-      "arg_tp": 6,
-      "arg_fp": 1,
-      "arg_fn": 2,
-      "arg_f1": 0.8
+      "arg_tp": 7,
+      "arg_fp": 0,
+      "arg_fn": 1,
+      "arg_f1": 0.9333
     },
     {
       "id": 525,
@@ -8431,13 +8725,13 @@
       "sentence": "Tuần này bà Loan cố chùng_chình ăn muộn .",
       "gold_tokens": 9,
       "silver_tokens": 8,
-      "pred_tp": 1,
-      "pred_fp": 1,
-      "pred_fn": 2,
+      "pred_tp": 3,
+      "pred_fp": 2,
+      "pred_fn": 0,
       "arg_tp": 5,
-      "arg_fp": 1,
+      "arg_fp": 4,
       "arg_fn": 3,
-      "arg_f1": 0.7143
+      "arg_f1": 0.5882
     },
     {
       "id": 307,
@@ -8523,7 +8817,7 @@
       "gold_tokens": 13,
       "silver_tokens": 13,
       "pred_tp": 0,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 2,
       "arg_tp": 9,
       "arg_fp": 1,
@@ -8549,12 +8843,12 @@
       "gold_tokens": 11,
       "silver_tokens": 11,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 1,
-      "arg_fp": 0,
-      "arg_fn": 5,
-      "arg_f1": 0.2857
+      "arg_tp": 4,
+      "arg_fp": 1,
+      "arg_fn": 2,
+      "arg_f1": 0.7273
     },
     {
       "id": 672,
@@ -8575,7 +8869,7 @@
       "gold_tokens": 7,
       "silver_tokens": 7,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 2,
       "arg_fp": 3,
@@ -8627,12 +8921,12 @@
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 1,
-      "arg_tp": 2,
-      "arg_fp": 3,
-      "arg_fn": 9,
-      "arg_f1": 0.25
+      "arg_tp": 5,
+      "arg_fp": 4,
+      "arg_fn": 6,
+      "arg_f1": 0.5
     },
     {
       "id": 515,
@@ -8744,12 +9038,12 @@
       "gold_tokens": 25,
       "silver_tokens": 24,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 12,
-      "arg_fp": 6,
+      "arg_fp": 9,
       "arg_fn": 9,
-      "arg_f1": 0.6154
+      "arg_f1": 0.5714
     },
     {
       "id": 1,
@@ -8769,13 +9063,13 @@
       "sentence": "Tôi nhớ mãi hôm chúng_tôi tổ_chức đọc thư của lãnh_tụ Nguyễn_Ái_Quốc g",
       "gold_tokens": 16,
       "silver_tokens": 16,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 0,
-      "pred_fn": 1,
-      "arg_tp": 14,
-      "arg_fp": 1,
-      "arg_fn": 1,
-      "arg_f1": 0.9333
+      "pred_fn": 0,
+      "arg_tp": 13,
+      "arg_fp": 4,
+      "arg_fn": 2,
+      "arg_f1": 0.8125
     },
     {
       "id": 196,
@@ -8821,13 +9115,13 @@
       "sentence": "Tôi rất vui khi thấy việc tố_cáo tiêu_cực của các anh được làm sáng_tỏ",
       "gold_tokens": 19,
       "silver_tokens": 19,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 3,
-      "arg_tp": 10,
-      "arg_fp": 0,
-      "arg_fn": 15,
-      "arg_f1": 0.5714
+      "pred_fn": 2,
+      "arg_tp": 11,
+      "arg_fp": 1,
+      "arg_fn": 14,
+      "arg_f1": 0.5946
     },
     {
       "id": 530,
@@ -8850,10 +9144,10 @@
       "pred_tp": 1,
       "pred_fp": 0,
       "pred_fn": 3,
-      "arg_tp": 15,
+      "arg_tp": 18,
       "arg_fp": 1,
-      "arg_fn": 15,
-      "arg_f1": 0.6522
+      "arg_fn": 12,
+      "arg_f1": 0.7347
     },
     {
       "id": 737,
@@ -8876,10 +9170,10 @@
       "pred_tp": 4,
       "pred_fp": 0,
       "pred_fn": 1,
-      "arg_tp": 12,
+      "arg_tp": 11,
       "arg_fp": 4,
-      "arg_fn": 12,
-      "arg_f1": 0.6
+      "arg_fn": 13,
+      "arg_f1": 0.5641
     },
     {
       "id": 891,
@@ -9068,9 +9362,9 @@
       "sentence": "Tùng ở lại , đã đỗ đại_học , đã bắt_nhịp với cuộc_sống của một sinh_vi",
       "gold_tokens": 18,
       "silver_tokens": 18,
-      "pred_tp": 2,
+      "pred_tp": 3,
       "pred_fp": 1,
-      "pred_fn": 1,
+      "pred_fn": 0,
       "arg_tp": 0,
       "arg_fp": 8,
       "arg_fn": 12,
@@ -9082,7 +9376,7 @@
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 2,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 0,
       "arg_tp": 11,
       "arg_fp": 1,
@@ -9173,12 +9467,12 @@
       "gold_tokens": 16,
       "silver_tokens": 17,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 2,
-      "arg_tp": 5,
-      "arg_fp": 5,
-      "arg_fn": 10,
-      "arg_f1": 0.4
+      "arg_tp": 6,
+      "arg_fp": 13,
+      "arg_fn": 9,
+      "arg_f1": 0.3529
     },
     {
       "id": 41,
@@ -9225,12 +9519,12 @@
       "gold_tokens": 24,
       "silver_tokens": 25,
       "pred_tp": 0,
-      "pred_fp": 0,
+      "pred_fp": 2,
       "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 38,
-      "arg_f1": 0.0
+      "arg_tp": 20,
+      "arg_fp": 2,
+      "arg_fn": 18,
+      "arg_f1": 0.6667
     },
     {
       "id": 615,
@@ -9289,13 +9583,13 @@
       "sentence": "Từ đây mọi việc_làm , suy_nghĩ bình_thường của Tùng , Tùng đều có thói",
       "gold_tokens": 17,
       "silver_tokens": 17,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 1,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 14,
-      "arg_f1": 0.0
+      "pred_fn": 0,
+      "arg_tp": 6,
+      "arg_fp": 6,
+      "arg_fn": 8,
+      "arg_f1": 0.4615
     },
     {
       "id": 98,
@@ -9341,13 +9635,13 @@
       "sentence": "Việc này cần cẩn_trọng vì Hải không_thể dùng máy_tính trong phòng hay ",
       "gold_tokens": 16,
       "silver_tokens": 18,
-      "pred_tp": 0,
+      "pred_tp": 1,
       "pred_fp": 2,
-      "pred_fn": 2,
-      "arg_tp": 13,
-      "arg_fp": 2,
-      "arg_fn": 10,
-      "arg_f1": 0.6842
+      "pred_fn": 1,
+      "arg_tp": 21,
+      "arg_fp": 4,
+      "arg_fn": 2,
+      "arg_f1": 0.875
     },
     {
       "id": 253,
@@ -9368,7 +9662,7 @@
       "gold_tokens": 16,
       "silver_tokens": 16,
       "pred_tp": 3,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 0,
       "arg_tp": 10,
       "arg_fp": 9,
@@ -9426,6 +9720,19 @@
       "arg_fp": 6,
       "arg_fn": 3,
       "arg_f1": 0.64
+    },
+    {
+      "id": 590,
+      "sentence": "Và Lan không_thể ở_vậy đến cuối đời mà dựa vào mối tình chui_lủi , đượ",
+      "gold_tokens": 17,
+      "silver_tokens": 20,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 1,
+      "arg_tp": 0,
+      "arg_fp": 0,
+      "arg_fn": 15,
+      "arg_f1": 0.0
     },
     {
       "id": 370,
@@ -9553,7 +9860,7 @@
       "pred_fp": 2,
       "pred_fn": 1,
       "arg_tp": 0,
-      "arg_fp": 2,
+      "arg_fp": 4,
       "arg_fn": 4,
       "arg_f1": 0.0
     },
@@ -9618,9 +9925,9 @@
       "pred_fp": 3,
       "pred_fn": 1,
       "arg_tp": 11,
-      "arg_fp": 3,
+      "arg_fp": 4,
       "arg_fn": 2,
-      "arg_f1": 0.8148
+      "arg_f1": 0.7857
     },
     {
       "id": 330,
@@ -9667,12 +9974,12 @@
       "gold_tokens": 25,
       "silver_tokens": 26,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 3,
       "pred_fn": 0,
       "arg_tp": 16,
-      "arg_fp": 3,
+      "arg_fp": 6,
       "arg_fn": 6,
-      "arg_f1": 0.7805
+      "arg_f1": 0.7273
     },
     {
       "id": 809,
@@ -9870,6 +10177,19 @@
       "arg_f1": 0.1905
     },
     {
+      "id": 638,
+      "sentence": "Ông_bà Hồng khuyên_can nhưng họ vẫn yêu nhau .",
+      "gold_tokens": 9,
+      "silver_tokens": 9,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 3,
+      "arg_fp": 0,
+      "arg_fn": 6,
+      "arg_f1": 0.5
+    },
+    {
       "id": 704,
       "sentence": "Ông_bà Hồng xem phim , ảnh đã xác_nhận đúng là con mình .",
       "gold_tokens": 13,
@@ -9896,17 +10216,30 @@
       "arg_f1": 0.0455
     },
     {
+      "id": 741,
+      "sentence": "Ông Henri_Martin hồ_hởi : \" Bác là lãnh_tụ để lại ấn_tượng sâu_sắc tro",
+      "gold_tokens": 16,
+      "silver_tokens": 17,
+      "pred_tp": 0,
+      "pred_fp": 2,
+      "pred_fn": 2,
+      "arg_tp": 1,
+      "arg_fp": 8,
+      "arg_fn": 20,
+      "arg_f1": 0.0667
+    },
+    {
       "id": 812,
       "sentence": "Ông Henri_Martin đã gửi thông_điệp đến các bạn trẻ VN : \" Các bạn hôm_",
       "gold_tokens": 23,
       "silver_tokens": 23,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 6,
-      "arg_fp": 0,
-      "arg_fn": 24,
-      "arg_f1": 0.3333
+      "pred_fn": 1,
+      "arg_tp": 8,
+      "arg_fp": 3,
+      "arg_fn": 22,
+      "arg_f1": 0.3902
     },
     {
       "id": 121,
@@ -9952,13 +10285,13 @@
       "sentence": "Ông Luân : \" Có thể_hiện ở công_văn 999 ngày 26 - 2 – 1998 mà gần đây ",
       "gold_tokens": 24,
       "silver_tokens": 24,
-      "pred_tp": 0,
-      "pred_fp": 1,
-      "pred_fn": 2,
-      "arg_tp": 3,
-      "arg_fp": 1,
-      "arg_fn": 19,
-      "arg_f1": 0.2308
+      "pred_tp": 1,
+      "pred_fp": 2,
+      "pred_fn": 1,
+      "arg_tp": 5,
+      "arg_fp": 16,
+      "arg_fn": 17,
+      "arg_f1": 0.2326
     },
     {
       "id": 295,
@@ -9985,6 +10318,19 @@
       "arg_fp": 14,
       "arg_fn": 26,
       "arg_f1": 0.4737
+    },
+    {
+      "id": 287,
+      "sentence": "Ông Ngọ lúng_túng : \" cái này đề_nghị hđxx cho thẩm_định ở một hội_đồn",
+      "gold_tokens": 25,
+      "silver_tokens": 25,
+      "pred_tp": 1,
+      "pred_fp": 0,
+      "pred_fn": 1,
+      "arg_tp": 0,
+      "arg_fp": 13,
+      "arg_fn": 38,
+      "arg_f1": 0.0
     },
     {
       "id": 658,
@@ -10096,12 +10442,12 @@
       "gold_tokens": 22,
       "silver_tokens": 22,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 2,
-      "arg_tp": 10,
-      "arg_fp": 9,
-      "arg_fn": 29,
-      "arg_f1": 0.3448
+      "arg_tp": 12,
+      "arg_fp": 17,
+      "arg_fn": 27,
+      "arg_f1": 0.3529
     },
     {
       "id": 738,
@@ -10151,9 +10497,9 @@
       "pred_fp": 3,
       "pred_fn": 2,
       "arg_tp": 3,
-      "arg_fp": 2,
+      "arg_fp": 3,
       "arg_fn": 7,
-      "arg_f1": 0.4
+      "arg_f1": 0.375
     },
     {
       "id": 578,
@@ -10161,12 +10507,12 @@
       "gold_tokens": 24,
       "silver_tokens": 24,
       "pred_tp": 2,
-      "pred_fp": 2,
+      "pred_fp": 4,
       "pred_fn": 0,
-      "arg_tp": 10,
+      "arg_tp": 11,
       "arg_fp": 18,
-      "arg_fn": 18,
-      "arg_f1": 0.3571
+      "arg_fn": 17,
+      "arg_f1": 0.386
     },
     {
       "id": 139,
@@ -10199,13 +10545,13 @@
       "sentence": "Điều đó cũng có nghĩa cho dù nồng_thắm , nghĩa_tình như_thế_nào đi_nữa",
       "gold_tokens": 21,
       "silver_tokens": 20,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 3,
-      "pred_fn": 1,
-      "arg_tp": 3,
-      "arg_fp": 13,
-      "arg_fn": 29,
-      "arg_f1": 0.125
+      "pred_fn": 0,
+      "arg_tp": 9,
+      "arg_fp": 15,
+      "arg_fn": 23,
+      "arg_f1": 0.3214
     },
     {
       "id": 835,
@@ -10239,7 +10585,7 @@
       "gold_tokens": 24,
       "silver_tokens": 24,
       "pred_tp": 1,
-      "pred_fp": 2,
+      "pred_fp": 3,
       "pred_fn": 1,
       "arg_tp": 4,
       "arg_fp": 18,
@@ -10252,12 +10598,12 @@
       "gold_tokens": 18,
       "silver_tokens": 17,
       "pred_tp": 1,
-      "pred_fp": 1,
+      "pred_fp": 2,
       "pred_fn": 3,
-      "arg_tp": 3,
-      "arg_fp": 13,
-      "arg_fn": 16,
-      "arg_f1": 0.1714
+      "arg_tp": 5,
+      "arg_fp": 14,
+      "arg_fn": 14,
+      "arg_f1": 0.2632
     },
     {
       "id": 350,
@@ -10278,12 +10624,12 @@
       "gold_tokens": 25,
       "silver_tokens": 27,
       "pred_tp": 0,
-      "pred_fp": 3,
+      "pred_fp": 4,
       "pred_fn": 3,
-      "arg_tp": 0,
-      "arg_fp": 0,
-      "arg_fn": 26,
-      "arg_f1": 0.0
+      "arg_tp": 2,
+      "arg_fp": 1,
+      "arg_fn": 24,
+      "arg_f1": 0.1379
     },
     {
       "id": 661,
@@ -10310,6 +10656,19 @@
       "arg_fp": 1,
       "arg_fn": 2,
       "arg_f1": 0.8
+    },
+    {
+      "id": 637,
+      "sentence": "Đào xinh_đẹp , lớn trước tuổi , cá_tính mạnh và không ham học .",
+      "gold_tokens": 14,
+      "silver_tokens": 13,
+      "pred_tp": 0,
+      "pred_fp": 1,
+      "pred_fn": 2,
+      "arg_tp": 0,
+      "arg_fp": 5,
+      "arg_fn": 3,
+      "arg_f1": 0.0
     },
     {
       "id": 131,
@@ -10498,13 +10857,13 @@
       "sentence": "Đó vừa là một quyết_định \" đúng thẩm_quyền \" , vừa là chủ_trương \" thá",
       "gold_tokens": 21,
       "silver_tokens": 21,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 0,
+      "pred_fn": 1,
+      "arg_tp": 4,
       "arg_fp": 16,
-      "arg_fn": 17,
-      "arg_f1": 0.0
+      "arg_fn": 13,
+      "arg_f1": 0.2162
     },
     {
       "id": 920,
@@ -10546,6 +10905,19 @@
       "arg_f1": 0.2462
     },
     {
+      "id": 135,
+      "sentence": "Đường_đất nhỏ , vận_động dân góp công góp của đắp đường bêtông .",
+      "gold_tokens": 13,
+      "silver_tokens": 13,
+      "pred_tp": 1,
+      "pred_fp": 3,
+      "pred_fn": 3,
+      "arg_tp": 2,
+      "arg_fp": 5,
+      "arg_fn": 12,
+      "arg_f1": 0.1905
+    },
+    {
       "id": 915,
       "sentence": "Đạp xe chạy ngược về nhà , anh lấy giấy cắt hình lò_xo xếp theo nguyên",
       "gold_tokens": 22,
@@ -10577,12 +10949,12 @@
       "gold_tokens": 19,
       "silver_tokens": 22,
       "pred_tp": 1,
-      "pred_fp": 3,
+      "pred_fp": 4,
       "pred_fn": 1,
       "arg_tp": 14,
-      "arg_fp": 3,
+      "arg_fp": 12,
       "arg_fn": 8,
-      "arg_f1": 0.7179
+      "arg_f1": 0.5833
     },
     {
       "id": 215,
@@ -10603,7 +10975,7 @@
       "gold_tokens": 15,
       "silver_tokens": 15,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 6,
       "arg_fp": 5,
@@ -10655,12 +11027,12 @@
       "gold_tokens": 24,
       "silver_tokens": 24,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 4,
-      "arg_tp": 10,
-      "arg_fp": 8,
-      "arg_fn": 20,
-      "arg_f1": 0.4167
+      "arg_tp": 12,
+      "arg_fp": 13,
+      "arg_fn": 18,
+      "arg_f1": 0.4364
     },
     {
       "id": 735,
@@ -10709,23 +11081,23 @@
       "pred_tp": 1,
       "pred_fp": 1,
       "pred_fn": 1,
-      "arg_tp": 14,
-      "arg_fp": 4,
-      "arg_fn": 10,
-      "arg_f1": 0.6667
+      "arg_tp": 13,
+      "arg_fp": 5,
+      "arg_fn": 11,
+      "arg_f1": 0.619
     },
     {
       "id": 106,
       "sentence": "Đổi hộ_chiếu hả , hay làm giấy_thông_hành về nước ?",
       "gold_tokens": 10,
       "silver_tokens": 11,
-      "pred_tp": 1,
+      "pred_tp": 2,
       "pred_fp": 0,
-      "pred_fn": 2,
-      "arg_tp": 1,
-      "arg_fp": 0,
-      "arg_fn": 6,
-      "arg_f1": 0.25
+      "pred_fn": 1,
+      "arg_tp": 3,
+      "arg_fp": 2,
+      "arg_fn": 4,
+      "arg_f1": 0.5
     },
     {
       "id": 262,
@@ -10811,7 +11183,7 @@
       "gold_tokens": 6,
       "silver_tokens": 6,
       "pred_tp": 1,
-      "pred_fp": 0,
+      "pred_fp": 1,
       "pred_fn": 0,
       "arg_tp": 0,
       "arg_fp": 2,

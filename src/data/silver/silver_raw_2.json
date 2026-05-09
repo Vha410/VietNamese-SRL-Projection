@@ -1706,10 +1706,10 @@
             },
             {
                 "word": "quyết_tâm",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
                     "_",
-                    "Arg2",
+                    "were.01",
                     "_",
                     "_",
                     "_"
@@ -6302,7 +6302,7 @@
                     "Arg2",
                     "Arg0",
                     "_",
-                    "AM-ADV"
+                    "Arg0"
                 ]
             },
             {
@@ -8831,7 +8831,7 @@
                 "labels": [
                     "AM-TMP",
                     "are.01",
-                    "Arg0"
+                    "AM-TMP"
                 ]
             },
             {
@@ -11529,9 +11529,10 @@
                 "word": "Thân",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "Arg1",
-                    "Arg0",
-                    "Arg0",
+                    "_",
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11540,9 +11541,10 @@
             },
             {
                 "word": "mình",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "'m.01",
+                    "_",
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11553,9 +11555,10 @@
             },
             {
                 "word": "chịu",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
                     "_",
+                    "endured.01",
                     "_",
                     "_",
                     "_",
@@ -11566,12 +11569,13 @@
             },
             {
                 "word": "cực",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
+                    "_",
+                    "Arg2",
+                    "_",
                     "Arg2",
                     "Arg1",
-                    "suffering.01",
-                    "_",
                     "_",
                     "_",
                     "_"
@@ -11582,6 +11586,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg2",
                     "_",
                     "_",
                     "_",
@@ -11592,10 +11597,11 @@
             },
             {
                 "word": "chịu",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
-                    "Arg2",
-                    "Arg1",
+                    "_",
+                    "endured.01",
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11608,6 +11614,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg2",
                     "_",
                     "_",
                     "_",
@@ -11626,13 +11633,15 @@
                     "_",
                     "_",
                     "_",
-                    "_"
+                    "_",
+                    "Arg0"
                 ]
             },
             {
                 "word": "quen",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11647,6 +11656,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg2",
                     "_",
                     "_",
                     "_",
@@ -11665,6 +11675,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "_"
                 ]
             },
@@ -11673,11 +11684,12 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg2",
                     "_",
-                    "_",
-                    "_",
-                    "_",
+                    "Arg2",
                     "Arg1",
+                    "_",
+                    "_",
                     "_"
                 ]
             },
@@ -11686,6 +11698,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg2",
                     "_",
                     "_",
                     "_",
@@ -11698,6 +11711,7 @@
                 "word": "nhưng",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11717,6 +11731,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "love.01"
                 ]
             },
@@ -11724,6 +11739,7 @@
                 "word": "nhất",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11743,6 +11759,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -11750,6 +11767,7 @@
                 "word": "hai",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11769,13 +11787,15 @@
                     "_",
                     "_",
                     "_",
-                    "_"
+                    "_",
+                    "Arg1"
                 ]
             },
             {
                 "word": "con",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -11789,6 +11809,7 @@
                 "word": ".",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -13567,7 +13588,7 @@
                     "Arg1",
                     "_",
                     "Arg0",
-                    "Arg0"
+                    "Arg1"
                 ]
             },
             {
@@ -14259,9 +14280,9 @@
         "tokens": [
             {
                 "word": "Nói",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "Having.01",
+                    "_",
                     "Arg1",
                     "R-ARG0",
                     "R-ARG0"
@@ -14293,7 +14314,7 @@
                 "labels": [
                     "_",
                     "Arg0",
-                    "Arg0",
+                    "Arg1",
                     "Arg0"
                 ]
             },
@@ -14313,7 +14334,7 @@
                 "labels": [
                     "_",
                     "_",
-                    "Arg1",
+                    "_",
                     "_"
                 ]
             },
@@ -15563,7 +15584,7 @@
                     "Arg1",
                     "Arg2",
                     "_",
-                    "AM-ADV"
+                    "Arg0"
                 ]
             },
             {
@@ -15887,7 +15908,7 @@
                 "is_predicate": true,
                 "labels": [
                     "Returning.01",
-                    "R-ARG1"
+                    "AM-ADV"
                 ]
             },
             {
@@ -15895,7 +15916,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg4",
-                    "R-ARG1"
+                    "AM-ADV"
                 ]
             },
             {
@@ -15903,7 +15924,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg4",
-                    "R-ARG1"
+                    "AM-ADV"
                 ]
             },
             {
@@ -15983,7 +16004,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg2"
+                    "_"
                 ]
             },
             {
@@ -17787,18 +17808,18 @@
         "tokens": [
             {
                 "word": "Vì",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
-                    "_",
-                    "AM-PRP"
+                    "Why_did.01",
+                    "AM-CAU"
                 ]
             },
             {
                 "word": "sao",
                 "is_predicate": true,
                 "labels": [
-                    "did.01",
-                    "_"
+                    "Why_did.01",
+                    "AM-CAU"
                 ]
             },
             {
@@ -21267,7 +21288,7 @@
                 "labels": [
                     "park.01",
                     "_",
-                    "AM-ADV"
+                    "AM-MNR"
                 ]
             },
             {
@@ -22389,7 +22410,7 @@
                     "_",
                     "_",
                     "_",
-                    "Arg0"
+                    "Arg1"
                 ]
             },
             {
@@ -22729,7 +22750,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "_",
+                    "AM-PRP",
                     "_",
                     "_",
                     "_"
@@ -22740,7 +22761,7 @@
                 "is_predicate": true,
                 "labels": [
                     "Arg1",
-                    "_",
+                    "AM-PRP",
                     "_",
                     "_",
                     "pay.01"
@@ -22751,10 +22772,10 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
+                    "AM-PRP",
                     "_",
                     "_",
-                    "_",
-                    "_"
+                    "Arg1"
                 ]
             },
             {
@@ -22762,7 +22783,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "_",
+                    "AM-PRP",
                     "_",
                     "_",
                     "Arg1"
@@ -22773,7 +22794,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "_",
+                    "AM-PRP",
                     "_",
                     "_",
                     "Arg1"
@@ -23036,7 +23057,7 @@
                     "Arg1",
                     "Arg2",
                     "do.01",
-                    "Arg0"
+                    "AM-NEG"
                 ]
             },
             {
@@ -25571,7 +25592,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg1"
+                    "Arg2"
                 ]
             },
             {
@@ -29803,6 +29824,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -29810,6 +29832,7 @@
                 "word": "công_trình",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -29823,6 +29846,7 @@
                     "Arg1",
                     "Arg0",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -29830,10 +29854,11 @@
                 "word": "tiếp_thị",
                 "is_predicate": false,
                 "labels": [
+                    "Arg1",
+                    "Arg0",
                     "_",
                     "_",
-                    "_",
-                    "_"
+                    "Arg1"
                 ]
             },
             {
@@ -29842,6 +29867,7 @@
                 "labels": [
                     "Arg1",
                     "Arg0",
+                    "_",
                     "_",
                     "Arg1"
                 ]
@@ -29853,6 +29879,7 @@
                     "Arg1",
                     "Arg0",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -29863,6 +29890,7 @@
                     "Arg1",
                     "Arg0",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -29870,6 +29898,7 @@
                 "word": "có",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -29883,17 +29912,19 @@
                     "Arg2",
                     "_",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
             {
                 "word": "đâu",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "Arg1",
-                    "come.01",
-                    "Arg1"
+                    "_",
+                    "_",
+                    "_",
+                    "_",
+                    "_"
                 ]
             },
             {
@@ -29903,15 +29934,17 @@
                     "Arg1",
                     "R-ARG0",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
             {
                 "word": "phải",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
                     "Arg1",
-                    "Arg1",
+                    "requires.01",
+                    "_",
                     "_",
                     "Arg1"
                 ]
@@ -29921,7 +29954,8 @@
                 "is_predicate": true,
                 "labels": [
                     "Arg1",
-                    "requires.01",
+                    "Arg1",
+                    "inviting.01",
                     "_",
                     "Arg1"
                 ]
@@ -29931,17 +29965,19 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "Arg2",
+                    "Arg1",
+                    "Arg1",
                     "Arg1",
                     "Arg1"
                 ]
             },
             {
                 "word": "các",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
                     "Arg1",
-                    "Arg0",
+                    "Arg1",
+                    "inviting.01",
                     "_",
                     "Arg1"
                 ]
@@ -29951,7 +29987,8 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "Arg2",
+                    "Arg1",
+                    "Arg1",
                     "Arg1",
                     "Arg1"
                 ]
@@ -29962,6 +29999,7 @@
                 "labels": [
                     "Arg1",
                     "Arg1",
+                    "Arg2",
                     "AM-DIR",
                     "Arg1"
                 ]
@@ -29970,6 +30008,7 @@
                 "word": "?",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -29983,6 +30022,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -29990,6 +30030,7 @@
                 "word": "-",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -30003,6 +30044,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "Arg0"
                 ]
             },
@@ -30013,6 +30055,7 @@
                     "_",
                     "_",
                     "_",
+                    "_",
                     "asked.01"
                 ]
             },
@@ -30020,6 +30063,7 @@
                 "word": ".",
                 "is_predicate": false,
                 "labels": [
+                    "_",
                     "_",
                     "_",
                     "_",
@@ -30208,7 +30252,7 @@
                     "_",
                     "Arg0",
                     "_",
-                    "AM-ADV",
+                    "Arg0",
                     "_"
                 ]
             },
@@ -32935,7 +32979,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg0",
+                    "Arg1",
                     "_"
                 ]
             },
@@ -38544,8 +38588,8 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "_",
-                    "_"
+                    "Arg1",
+                    "AM-EXT"
                 ]
             },
             {
@@ -38918,7 +38962,7 @@
                     "_",
                     "Arg1",
                     "Arg1",
-                    "confirm.01"
+                    "certify.01"
                 ]
             },
             {
@@ -38962,7 +39006,7 @@
                     "_",
                     "Arg1",
                     "Arg1",
-                    "confirm.01"
+                    "certify.01"
                 ]
             },
             {
@@ -38980,7 +39024,7 @@
                 "word": "?",
                 "is_predicate": false,
                 "labels": [
-                    "_",
+                    "Arg1",
                     "_",
                     "_",
                     "_",
@@ -40065,7 +40109,7 @@
                     "Arg2",
                     "Arg1",
                     "Arg1",
-                    "Arg1"
+                    "Arg0"
                 ]
             },
             {
@@ -42036,7 +42080,7 @@
                     "_",
                     "_",
                     "_",
-                    "Arg0"
+                    "Arg2"
                 ]
             },
             {
@@ -43406,7 +43450,7 @@
                 "is_predicate": true,
                 "labels": [
                     "investigating.01",
-                    "Arg0"
+                    "Arg1"
                 ]
             },
             {
@@ -46738,7 +46782,7 @@
                     "_",
                     "Arg0",
                     "_",
-                    "AM-ADV",
+                    "Arg0",
                     "Arg0",
                     "Arg0",
                     "_",
@@ -50039,7 +50083,7 @@
                 "labels": [
                     "_",
                     "Arg0",
-                    "AM-ADV"
+                    "Arg0"
                 ]
             },
             {
@@ -51154,10 +51198,10 @@
             },
             {
                 "word": "đòi_hỏi",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
                     "Arg1",
-                    "R-ARG0"
+                    "requires.01"
                 ]
             },
             {
@@ -55369,7 +55413,7 @@
                 "is_predicate": true,
                 "labels": [
                     "Holding.01",
-                    "R-ARG0",
+                    "Arg1",
                     "Arg1"
                 ]
             },
@@ -55471,50 +55515,50 @@
         "tokens": [
             {
                 "word": "Nam_tắm",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "bathing.01"
+                    "Arg1",
+                    "Arg0"
                 ]
             },
             {
                 "word": "thường",
                 "is_predicate": false,
                 "labels": [
-                    "AM-TMP",
-                    "_"
+                    "_",
+                    "AM-TMP"
                 ]
             },
             {
                 "word": "mang",
                 "is_predicate": true,
                 "labels": [
-                    "take.01",
-                    "_"
+                    "_",
+                    "carry.01"
                 ]
             },
             {
                 "word": "điện_thoại_di_động",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "_"
+                    "_",
+                    "Arg1"
                 ]
             },
             {
                 "word": "theo",
                 "is_predicate": false,
                 "labels": [
-                    "AM-TMP",
-                    "AM-TMP"
+                    "_",
+                    "Arg3"
                 ]
             },
             {
                 "word": "người",
                 "is_predicate": false,
                 "labels": [
-                    "AM-ADV",
-                    "_"
+                    "_",
+                    "Arg3"
                 ]
             },
             {
@@ -55799,7 +55843,7 @@
                     "Arg1",
                     "can.01",
                     "_",
-                    "AM-MOD",
+                    "AM-NEG",
                     "R-ARG0",
                     "_",
                     "_"
@@ -56370,7 +56414,7 @@
                 "labels": [
                     "Arg1",
                     "_",
-                    "Arg1"
+                    "Arg2"
                 ]
             },
             {
@@ -57434,7 +57478,7 @@
                 "labels": [
                     "Arg1",
                     "must.01",
-                    "Arg0"
+                    "AM-MOD"
                 ]
             },
             {
@@ -57894,7 +57938,7 @@
                 "word": "bị",
                 "is_predicate": false,
                 "labels": [
-                    "R-ARG0",
+                    "_",
                     "_"
                 ]
             },
@@ -57934,7 +57978,7 @@
                 "word": "trả_lời",
                 "is_predicate": true,
                 "labels": [
-                    "answered.01",
+                    "replied.01",
                     "_"
                 ]
             },
@@ -59325,7 +59369,7 @@
                 "word": "đêm",
                 "is_predicate": false,
                 "labels": [
-                    "_"
+                    "AM-TMP"
                 ]
             },
             {
@@ -61719,48 +61763,48 @@
                 "word": "mọi",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
                 "word": "việc_làm",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
                 "word": ",",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
                 "word": "suy_nghĩ",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
                 "word": "bình_thường",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
                 "word": "của",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "_"
+                    "Arg1",
+                    "Arg1"
                 ]
             },
             {
@@ -61799,7 +61843,7 @@
                 "word": "có",
                 "is_predicate": true,
                 "labels": [
-                    "have.01",
+                    "has.01",
                     "_"
                 ]
             },
@@ -68934,7 +68978,7 @@
                 "word": "Tôi",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
+                    "AM-TMP",
                     "_",
                     "_"
                 ]
@@ -69798,7 +69842,7 @@
                 "labels": [
                     "Arg1",
                     "can.01",
-                    "Arg0"
+                    "AM-MOD"
                 ]
             },
             {
@@ -70336,7 +70380,7 @@
                 "labels": [
                     "Arg1",
                     "can.01",
-                    "AM-MOD",
+                    "AM-NEG",
                     "_",
                     "_"
                 ]
@@ -70393,7 +70437,7 @@
                     "_",
                     "_",
                     "can.01",
-                    "AM-MOD"
+                    "AM-NEG"
                 ]
             },
             {
@@ -72937,7 +72981,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg2",
+                    "Arg4",
                     "_",
                     "_"
                 ]
@@ -72947,7 +72991,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg2",
+                    "Arg4",
                     "_",
                     "_"
                 ]
@@ -73016,7 +73060,7 @@
                 "word": "phải",
                 "is_predicate": true,
                 "labels": [
-                    "_",
+                    "AM-MNR",
                     "AM-MNR",
                     "must.01",
                     "AM-MOD"
@@ -73026,7 +73070,7 @@
                 "word": "đi",
                 "is_predicate": true,
                 "labels": [
-                    "_",
+                    "AM-MNR",
                     "AM-MNR",
                     "_",
                     "study.01"
@@ -76610,7 +76654,7 @@
                 "labels": [
                     "_",
                     "_",
-                    "C-ARG1"
+                    "Arg1"
                 ]
             },
             {
@@ -76619,7 +76663,7 @@
                 "labels": [
                     "_",
                     "_",
-                    "C-ARG1"
+                    "Arg1"
                 ]
             },
             {
@@ -76628,7 +76672,7 @@
                 "labels": [
                     "_",
                     "_",
-                    "C-ARG1"
+                    "Arg1"
                 ]
             },
             {
@@ -76637,7 +76681,7 @@
                 "labels": [
                     "_",
                     "_",
-                    "C-ARG1"
+                    "Arg1"
                 ]
             },
             {
@@ -78500,7 +78544,7 @@
                 "word": "Thắng",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
+                    "Arg0",
                     "Arg0",
                     "_",
                     "_"
@@ -78510,7 +78554,7 @@
                 "word": "lại",
                 "is_predicate": true,
                 "labels": [
-                    "came.01",
+                    "went.01",
                     "_",
                     "_",
                     "_"
@@ -80813,8 +80857,8 @@
                 "is_predicate": true,
                 "labels": [
                     "'ll.01",
-                    "Arg0",
-                    "Arg0",
+                    "AM-MOD",
+                    "AM-MOD",
                     "_",
                     "_"
                 ]
@@ -81050,7 +81094,7 @@
                 "is_predicate": false,
                 "labels": [
                     "AM-TMP",
-                    "AM-TMP"
+                    "Arg1"
                 ]
             },
             {
@@ -81752,8 +81796,8 @@
                     "_",
                     "_",
                     "can.01",
-                    "AM-MOD",
-                    "AM-MOD"
+                    "AM-NEG",
+                    "AM-NEG"
                 ]
             },
             {
@@ -81812,8 +81856,8 @@
                 "is_predicate": true,
                 "labels": [
                     "ca.01",
-                    "Arg1",
-                    "Arg0"
+                    "AM-MOD",
+                    "AM-MOD"
                 ]
             },
             {
@@ -82680,7 +82724,7 @@
                 "is_predicate": true,
                 "labels": [
                     "can.01",
-                    "AM-MOD"
+                    "AM-NEG"
                 ]
             },
             {
@@ -88990,9 +89034,9 @@
             },
             {
                 "word": "hăm_dọa",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
-                    "_",
+                    "threatened.01",
                     "_",
                     "_",
                     "_"
@@ -89080,9 +89124,9 @@
             },
             {
                 "word": "đã",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "threatened.01",
+                    "_",
                     "_",
                     "_",
                     "_"
@@ -89090,52 +89134,52 @@
             },
             {
                 "word": "xảy",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "AM-PRD",
                     "_",
-                    "leading.01"
+                    "_",
+                    "_",
+                    "_"
                 ]
             },
             {
                 "word": "ra",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
-                    "Arg1",
-                    "AM-PRD",
                     "_",
-                    "Arg2"
+                    "_",
+                    "_",
+                    "were.01"
                 ]
             },
             {
                 "word": "nhiều",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "AM-PRD",
                     "_",
-                    "Arg2"
+                    "_",
+                    "_",
+                    "Arg1"
                 ]
             },
             {
                 "word": "trận",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "AM-PRD",
                     "_",
-                    "Arg2"
+                    "_",
+                    "_",
+                    "Arg1"
                 ]
             },
             {
                 "word": "chiến",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "AM-PRD",
                     "_",
-                    "Arg2"
+                    "_",
+                    "_",
+                    "Arg1"
                 ]
             },
             {
@@ -89421,7 +89465,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg2",
-                    "Arg0",
+                    "Arg1",
                     "Arg2"
                 ]
             },
@@ -90276,7 +90320,7 @@
                 "word": "cù_lao",
                 "is_predicate": false,
                 "labels": [
-                    "_"
+                    "Arg4"
                 ]
             },
             {
@@ -92368,7 +92412,7 @@
                     "Arg0",
                     "_",
                     "_",
-                    "AM-TMP",
+                    "Arg0",
                     "Arg0"
                 ]
             },
@@ -92380,7 +92424,7 @@
                     "_",
                     "_",
                     "can.01",
-                    "AM-MOD",
+                    "AM-NEG",
                     "_"
                 ]
             },
@@ -96425,7 +96469,7 @@
                 "word": "Thật",
                 "is_predicate": false,
                 "labels": [
-                    "AM-ADV",
+                    "Arg0",
                     "_",
                     "_"
                 ]
@@ -98596,7 +98640,7 @@
                 "labels": [
                     "_",
                     "could.01",
-                    "AM-MOD"
+                    "Arg1"
                 ]
             },
             {
@@ -100686,8 +100730,8 @@
                 "is_predicate": true,
                 "labels": [
                     "_",
-                    "confessed.01",
-                    "_",
+                    "Arg1",
+                    "had.01",
                     "_"
                 ]
             },
@@ -100707,28 +100751,28 @@
                 "labels": [
                     "_",
                     "Arg1",
-                    "saw.01",
-                    "_"
+                    "_",
+                    "seen.01"
                 ]
             },
             {
                 "word": "thấy",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg1",
-                    "Arg1",
-                    "inhaling.01"
+                    "_",
+                    "_",
+                    "_"
                 ]
             },
             {
                 "word": "tuấn",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
                     "_",
                     "Arg1",
-                    "Arg1",
-                    "inhaling.01"
+                    "_",
+                    "Arg1"
                 ]
             },
             {
@@ -100736,9 +100780,9 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
+                    "Arg1",
                     "_",
-                    "_",
-                    "_"
+                    "Arg1"
                 ]
             },
             {
@@ -100747,7 +100791,7 @@
                 "labels": [
                     "_",
                     "Arg1",
-                    "Arg1",
+                    "_",
                     "Arg1"
                 ]
             },
@@ -103587,7 +103631,7 @@
                 "word": "Bác_hồ",
                 "is_predicate": false,
                 "labels": [
-                    "Arg2",
+                    "Arg1",
                     "_"
                 ]
             },
@@ -103595,15 +103639,15 @@
                 "word": "là",
                 "is_predicate": true,
                 "labels": [
-                    "embodies.01",
+                    "is.01",
                     "_"
                 ]
             },
             {
                 "word": "hiện_thân",
-                "is_predicate": true,
+                "is_predicate": false,
                 "labels": [
-                    "embodies.01",
+                    "Arg2",
                     "_"
                 ]
             },
@@ -103611,7 +103655,7 @@
                 "word": "tất_cả",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
+                    "Arg2",
                     "Arg1"
                 ]
             },
@@ -103627,7 +103671,7 @@
                 "word": "gì",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
+                    "Arg2",
                     "R-ARG1"
                 ]
             },
@@ -103635,7 +103679,7 @@
                 "word": "tốt_đẹp",
                 "is_predicate": true,
                 "labels": [
-                    "Arg1",
+                    "Arg2",
                     "is.01"
                 ]
             },
@@ -103643,8 +103687,8 @@
                 "word": "nhất",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
-                    "Arg2"
+                    "_",
+                    "_"
                 ]
             },
             {
@@ -105224,7 +105268,7 @@
                 "is_predicate": true,
                 "labels": [
                     "Getting.01",
-                    "R-ARG1",
+                    "Arg1",
                     "Arg0",
                     "_"
                 ]
@@ -109364,9 +109408,9 @@
             },
             {
                 "word": "ở",
-                "is_predicate": false,
+                "is_predicate": true,
                 "labels": [
-                    "_",
+                    "stayed.01",
                     "_",
                     "_"
                 ]
@@ -110386,7 +110430,7 @@
                 "word": "Phạm_chỉ",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
+                    "AM-ADV",
                     "_",
                     "_",
                     "_"
@@ -113244,7 +113288,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "AM-TMP"
+                    "Arg0"
                 ]
             },
             {
@@ -113904,7 +113948,7 @@
                 "word": "thư_Tùng",
                 "is_predicate": false,
                 "labels": [
-                    "Arg1",
+                    "Arg0",
                     "Arg0",
                     "_",
                     "Arg1",
@@ -114061,7 +114105,7 @@
                     "Arg2",
                     "_",
                     "_",
-                    "Arg1",
+                    "Arg2",
                     "Arg1"
                 ]
             },
@@ -114394,8 +114438,8 @@
                 "word": "Hải_thường",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "Arg0",
+                    "AM-TMP",
+                    "AM-TMP",
                     "_",
                     "_"
                 ]
@@ -115841,7 +115885,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "AM-ADV"
+                    "Arg1"
                 ]
             },
             {
@@ -116403,7 +116447,7 @@
                 "is_predicate": false,
                 "labels": [
                     "Arg1",
-                    "Arg1",
+                    "AM-NEG",
                     "Arg0",
                     "Arg1",
                     "_"
@@ -116936,7 +116980,7 @@
                 "word": "Hải_âm_thầm",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
+                    "AM-ADV",
                     "Arg0"
                 ]
             },
@@ -120047,7 +120091,7 @@
                 "labels": [
                     "_",
                     "Arg4",
-                    "_"
+                    "Arg1"
                 ]
             },
             {
@@ -120055,8 +120099,8 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "_",
-                    "_"
+                    "Arg4",
+                    "Arg1"
                 ]
             },
             {
@@ -121516,7 +121560,7 @@
                 "is_predicate": false,
                 "labels": [
                     "_",
-                    "Arg0",
+                    "AM-TMP",
                     "_",
                     "_"
                 ]
@@ -122798,8 +122842,8 @@
                 "word": "Hải_điềm",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "Arg0",
+                    "AM-MNR",
+                    "AM-MNR",
                     "Arg0"
                 ]
             },
@@ -124717,8 +124761,8 @@
                 "word": "Hùng",
                 "is_predicate": false,
                 "labels": [
-                    "Arg0",
-                    "Arg0"
+                    "AM-MNR",
+                    "AM-ADV"
                 ]
             },
             {
@@ -125602,7 +125646,7 @@
                 "labels": [
                     "must.01",
                     "_",
-                    "Arg1"
+                    "AM-MOD"
                 ]
             },
             {
@@ -126185,7 +126229,7 @@
                     "_",
                     "_",
                     "can.01",
-                    "AM-MOD"
+                    "AM-NEG"
                 ]
             },
             {
